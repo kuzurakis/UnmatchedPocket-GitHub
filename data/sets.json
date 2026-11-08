@@ -1,0 +1,370 @@
+[
+  {
+    "id": "bol1",
+    "name": "Битва легенд. Том 1",
+    "hero_ids": [
+      "alice",
+      "king_arthur",
+      "medusa",
+      "sinbad"
+    ],
+    "board_ids": [
+      "marmoreal",
+      "sarpedon"
+    ],
+    "year": 2019
+  },
+  {
+    "id": "robin_bigfoot",
+    "name": "Робин Гуд против Бигфута",
+    "hero_ids": [
+      "robin_hood",
+      "bigfoot"
+    ],
+    "board_ids": [
+      "sherwood_forest",
+      "yukon"
+    ],
+    "year": 2019
+  },
+  {
+    "id": "bruce_lee",
+    "name": "Брюс Ли против Мухаммеда Али",
+    "hero_ids": [
+      "bruce_lee",
+      "muhammad_ali"
+    ],
+    "board_ids": [
+      "thrilla_in_manilla",
+      "tsing_shan_monastery"
+    ],
+    "year": 2025
+  },
+  {
+    "id": "ingen_raptors",
+    "name": "Парк юрского периода: InGen против рапторов",
+    "hero_ids": [
+      "ingen",
+      "raptors"
+    ],
+    "board_ids": [
+      "raptor_paddock"
+    ],
+    "year": 2020
+  },
+  {
+    "id": "cobble_fog",
+    "name": "Туман над мостовой",
+    "hero_ids": [
+      "dracula",
+      "sherlock_holmes",
+      "jekyll_hyde",
+      "invisible_man"
+    ],
+    "board_ids": [
+      "soho",
+      "baskerville_manor"
+    ],
+    "year": 2020
+  },
+  {
+    "id": "buffy",
+    "name": "Баффи — истребительница вампиров",
+    "hero_ids": [
+      "buffy",
+      "angel",
+      "spike",
+      "willow"
+    ],
+    "board_ids": [
+      "sunnydale_high",
+      "the_bronze"
+    ],
+    "year": 2020
+  },
+  {
+    "id": "red_beowulf",
+    "name": "Красная Шапочка против Беовульфа",
+    "hero_ids": [
+      "little_red",
+      "beowulf"
+    ],
+    "board_ids": [
+      "heorot"
+    ],
+    "year": 2020
+  },
+  {
+    "id": "houdini_genie",
+    "name": "Гудини против Джинна",
+    "hero_ids": [
+      "houdini",
+      "genie"
+    ],
+    "board_ids": [
+      "king_solomons_mine"
+    ],
+    "year": 2022
+  },
+  {
+    "id": "bol2",
+    "name": "Битва легенд. Том 2",
+    "hero_ids": [
+      "achilles",
+      "bloody_mary",
+      "sun_wukong",
+      "yennenga"
+    ],
+    "board_ids": [
+      "hanging_gardens"
+    ],
+    "year": 2021
+  },
+  {
+    "id": "tales_to_amaze",
+    "name": "Удивительные истории",
+    "hero_ids": [
+      "nikola_tesla",
+      "dr_jill_trent",
+      "annie_christmas",
+      "golden_bat"
+    ],
+    "board_ids": [
+      "point_pleasant",
+      "mcminnville_or"
+    ],
+    "year": 2023
+  },
+  {
+    "id": "suns_origin",
+    "name": "Восход солнца",
+    "hero_ids": [
+      "oda_nobunaga",
+      "tomoe_gozen"
+    ],
+    "board_ids": [
+      "azuchi_castle"
+    ],
+    "year": 2024
+  },
+  {
+    "id": "slings_arrows",
+    "name": "Пращи и стрелы",
+    "hero_ids": [
+      "william_shakespeare",
+      "hamlet",
+      "titania",
+      "the_wayward_sisters"
+    ],
+    "board_ids": [
+      "globe_theatre"
+    ],
+    "year": 2024
+  },
+  {
+    "id": "witcher_steel_silver",
+    "name": "Ведьмак: Сталь и серебро",
+    "hero_ids": [
+      "geralt_of_rivia",
+      "ciri",
+      "ancient_leshen"
+    ],
+    "board_ids": [
+      "kaer_morhen",
+      "fayrlund_forest"
+    ],
+    "year": 2024
+  },
+  {
+    "id": "witcher_realms_fall",
+    "name": "Ведьмак: Падение королевств",
+    "hero_ids": [
+      "eredin",
+      "philippa",
+      "yennefer_triss"
+    ],
+    "board_ids": [
+      "naglfar",
+      "streets_of_novigrad"
+    ],
+    "year": 2024
+  },
+  {
+    "id": "hells_kitchen",
+    "name": "Marvel: Адская кухня",
+    "hero_ids": [
+      "daredevil",
+      "bullseye",
+      "elektra"
+    ],
+    "board_ids": [
+      "hells_kitchen"
+    ],
+    "year": 2022
+  },
+  {
+    "id": "redemption_row",
+    "name": "Marvel: Искупление",
+    "hero_ids": [
+      "luke_cage",
+      "moon_knight",
+      "ghost_rider"
+    ],
+    "board_ids": [
+      "the_raft"
+    ],
+    "year": 2022
+  },
+  {
+    "id": "sattler_trex",
+    "name": "Сэттлер против Тираннозавра",
+    "hero_ids": [
+      "dr_ellie_sattler",
+      "t_rex"
+    ],
+    "board_ids": [
+      "t_rex_paddock"
+    ],
+    "year": 2022
+  },
+  {
+    "id": "teen_spirit",
+    "name": "Marvel: Подростковый дух",
+    "hero_ids": [
+      "ms_marvel",
+      "cloak_and_dagger",
+      "squirrel_girl"
+    ],
+    "board_ids": [
+      "navy_pier"
+    ],
+    "year": 2023
+  },
+  {
+    "id": "king_country",
+    "name": "Marvel: За короля и отечество",
+    "hero_ids": [
+      "winter_soldier",
+      "black_panther",
+      "black_widow"
+    ],
+    "board_ids": [
+      "helicarrier"
+    ],
+    "year": 2023
+  },
+  {
+    "id": "brains_brawn",
+    "name": "Marvel: Мозги и мускулы",
+    "hero_ids": [
+      "she_hulk",
+      "spider_man",
+      "doctor_strange"
+    ],
+    "board_ids": [
+      "sanctum_sanctorum"
+    ],
+    "year": 2023
+  },
+  {
+    "id": "deadpool",
+    "name": "Marvel: Дэдпул",
+    "hero_ids": [
+      "deadpool"
+    ],
+    "board_ids": [],
+    "year": 2021
+  },
+  {
+    "id": "bol3",
+    "name": "Битва легенд. Том 3",
+    "hero_ids": [
+      "blackbeard",
+      "loki",
+      "chupacabra",
+      "pandora"
+    ],
+    "board_ids": [
+      "venice",
+      "santas_workshop"
+    ],
+    "year": 2025
+  },
+  {
+    "id": "tmnt",
+    "name": "Черепашки-ниндзя",
+    "hero_ids": [
+      "leonardo",
+      "donatello",
+      "michelangelo",
+      "raphael"
+    ],
+    "board_ids": [],
+    "year": 2025
+  },
+  {
+    "id": "stars_stripes",
+    "name": "Звёзды и полосы",
+    "hero_ids": [
+      "george_washington",
+      "rosie_the_riveter",
+      "john_henry",
+      "wyatt_earp"
+    ],
+    "board_ids": [
+      "the_white_house",
+      "the_alamo"
+    ],
+    "year": 2026
+  },
+  {
+    "id": "hellboy",
+    "name": "Хеллбой",
+    "hero_ids": [
+      "hellboy",
+      "abe_sapien",
+      "liz_sherman",
+      "baba_yaga"
+    ],
+    "board_ids": [
+      "bprd_hq",
+      "pandemonium"
+    ],
+    "year": 2026
+  },
+  {
+    "id": "tmnt_villains",
+    "name": "Черепашки-ниндзя: Шреддер и Крэнг",
+    "hero_ids": [
+      "shredder",
+      "krang"
+    ],
+    "board_ids": [],
+    "year": 2025
+  },
+  {
+    "id": "fan_dawn_rus",
+    "name": "FAN · На заре земли русской",
+    "fan": true,
+    "planned_hero_count": 4,
+    "hero_ids": [
+      "svyatogor",
+      "mikula"
+    ],
+    "board_ids": [],
+    "year": 2026
+  },
+  {
+    "id": "fan_giants_nature",
+    "name": "FAN · Гиганты против природы",
+    "fan": true,
+    "hero_ids": [
+      "birds",
+      "moose",
+      "kraken",
+      "godzilla"
+    ],
+    "board_ids": [],
+    "year": 2026
+  }
+]

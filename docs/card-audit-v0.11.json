@@ -1,0 +1,2294 @@
+{
+  "cards": 381,
+  "checks": 5599,
+  "failures": 0,
+  "results": [
+    {
+      "card": "i_m_late_i_m_late",
+      "hero": "alice",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "looking_glass",
+      "hero": "alice",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "mad_as_a_hatter",
+      "hero": "alice",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "o_frabjous_day",
+      "hero": "alice",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "snicker_snack",
+      "hero": "alice",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_other_side_of_the_mushroom",
+      "hero": "alice",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "drink_me",
+      "hero": "alice",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "eat_me",
+      "hero": "alice",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "claws_that_catch",
+      "hero": "alice",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "jaws_that_bite",
+      "hero": "alice",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "alice",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "manxome_foe",
+      "hero": "alice",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "momentous_shift",
+      "hero": "alice",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "regroup",
+      "hero": "alice",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "skirmish",
+      "hero": "alice",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "divine_intervention",
+      "hero": "king_arthur",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "excalibur",
+      "hero": "king_arthur",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "noble_sacrifice",
+      "hero": "king_arthur",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_aid_of_morgana",
+      "hero": "king_arthur",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_holy_grail",
+      "hero": "king_arthur",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_lady_of_the_lake",
+      "hero": "king_arthur",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "aid_the_chosen_one",
+      "hero": "king_arthur",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "bewilderment",
+      "hero": "king_arthur",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "command_the_storms",
+      "hero": "king_arthur",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "prophecy",
+      "hero": "king_arthur",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "restless_spirits",
+      "hero": "king_arthur",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "king_arthur",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "momentous_shift",
+      "hero": "king_arthur",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "regroup",
+      "hero": "king_arthur",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "skirmish",
+      "hero": "king_arthur",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "swift_strike",
+      "hero": "king_arthur",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "gaze_of_stone",
+      "hero": "medusa",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "hiss_and_slither",
+      "hero": "medusa",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "second_shot_3",
+      "hero": "medusa",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "a_momentary_glance",
+      "hero": "medusa",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "clutching_claws",
+      "hero": "medusa",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_hounds_of_mighty_zeus",
+      "hero": "medusa",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "dash",
+      "hero": "medusa",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "medusa",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "regroup",
+      "hero": "medusa",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "snipe",
+      "hero": "medusa",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "winged_frenzy",
+      "hero": "medusa",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "toil_and_danger",
+      "hero": "sinbad",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "voyage_home",
+      "hero": "sinbad",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "voyage_to_the_cannibals_with_the_root_of_madness",
+      "hero": "sinbad",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "voyage_to_the_city_of_the_king_of_serendib",
+      "hero": "sinbad",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "voyage_to_the_city_of_the_man_eating_apes",
+      "hero": "sinbad",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "voyage_to_the_creature_with_eyes_like_coals_of_fire",
+      "hero": "sinbad",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "voyage_to_the_island_that_was_a_whale",
+      "hero": "sinbad",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "voyage_to_the_valley_of_the_giant_snakes",
+      "hero": "sinbad",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "riches_beyond_compare",
+      "hero": "sinbad",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "by_fortune_and_fate",
+      "hero": "sinbad",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "commanding_impact",
+      "hero": "sinbad",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "exploit",
+      "hero": "sinbad",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "sinbad",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "leap_away",
+      "hero": "sinbad",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "momentous_shift",
+      "hero": "sinbad",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "regroup",
+      "hero": "sinbad",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "ambush",
+      "hero": "robin_hood",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "a_hunter_s_eye",
+      "hero": "robin_hood",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "steal_from_the_rich",
+      "hero": "robin_hood",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "disarming_shot",
+      "hero": "robin_hood",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "piercing_shot",
+      "hero": "robin_hood",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "defenders_of_sherwood",
+      "hero": "robin_hood",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "highway_robbery",
+      "hero": "robin_hood",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "snark",
+      "hero": "robin_hood",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "wily_fighting",
+      "hero": "robin_hood",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "robin_hood",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "regroup",
+      "hero": "robin_hood",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "skirmish",
+      "hero": "bigfoot",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "larger_than_life",
+      "hero": "bigfoot",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "crash_through_the_trees",
+      "hero": "bigfoot",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "it_s_just_your_imagination",
+      "hero": "bigfoot",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "savagery",
+      "hero": "bigfoot",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "hoax",
+      "hero": "bigfoot",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "jackalope_horns",
+      "hero": "bigfoot",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "disengage",
+      "hero": "bigfoot",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "momentous_shift",
+      "hero": "bigfoot",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "bigfoot",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "regroup",
+      "hero": "bigfoot",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "skirmish",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "little_dragon",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "taste_of_blood",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "be_like_water",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "hoo_whaaaaaa",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "jeet_kune_do_high_straight_lead",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "jeet_kune_do_downward_side_kick",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "jeet_kune_do_wrist_lock",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "jeet_kune_do_intercepting_fist",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "jeet_kune_do_corkscrew_finger_jab",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "jeet_kune_do_short_lead_hook",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "bring_it_on",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "one_inch_punch",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "nunchaku",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "momentous_shift",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "regroup",
+      "hero": "bruce_lee",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "leap_away",
+      "hero": "ingen",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "they_should_all_be_destroyed",
+      "hero": "ingen",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "shoot_her",
+      "hero": "ingen",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "i_ve_hunted_most_things_that_can_hunt_you",
+      "hero": "ingen",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "call_for_backup",
+      "hero": "ingen",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "tactical_advance",
+      "hero": "ingen",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "remote_detonation",
+      "hero": "ingen",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "rending_shot",
+      "hero": "ingen",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "ingen",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "regroup",
+      "hero": "ingen",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "second_shot_2",
+      "hero": "ingen",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "disengage",
+      "hero": "raptors",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "clever_girl",
+      "hero": "raptors",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "coordinated_attack_pattern",
+      "hero": "raptors",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "pack_hunters",
+      "hero": "raptors",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "eaten_alive",
+      "hero": "raptors",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "working_things_out",
+      "hero": "raptors",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "decoy",
+      "hero": "raptors",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "they_remember",
+      "hero": "raptors",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "eviscerate",
+      "hero": "raptors",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "ambush",
+      "hero": "raptors",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "raptors",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "jab",
+      "hero": "muhammad_ali",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "answer_the_bell",
+      "hero": "muhammad_ali",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "stick_and_move",
+      "hero": "muhammad_ali",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "ali_shuffle",
+      "hero": "muhammad_ali",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "close_and_clinch",
+      "hero": "muhammad_ali",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "momentous_shift",
+      "hero": "muhammad_ali",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "fancy_footwork",
+      "hero": "muhammad_ali",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "hard_to_be_humble",
+      "hero": "muhammad_ali",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "louisville_lip",
+      "hero": "muhammad_ali",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "rope_a_dope",
+      "hero": "muhammad_ali",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "champion_of_the_world",
+      "hero": "muhammad_ali",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "stronger_than_the_skill",
+      "hero": "muhammad_ali",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_greatest",
+      "hero": "muhammad_ali",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "dracula",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "dash",
+      "hero": "dracula",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "exploit",
+      "hero": "dracula",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "ambush",
+      "hero": "dracula",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feeding_frenzy",
+      "hero": "dracula",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "beastform",
+      "hero": "dracula",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "do_my_bidding",
+      "hero": "dracula",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "look_into_my_eyes",
+      "hero": "dracula",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "mistform",
+      "hero": "dracula",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "prey_upon",
+      "hero": "dracula",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "baptism_of_blood",
+      "hero": "dracula",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "thirst_for_sustenance",
+      "hero": "dracula",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "ravening_seduction",
+      "hero": "dracula",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "sherlock_holmes",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "education_never_ends",
+      "hero": "sherlock_holmes",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "study_methods",
+      "hero": "sherlock_holmes",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "deduce_strategy",
+      "hero": "sherlock_holmes",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "counterpunch",
+      "hero": "sherlock_holmes",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "fixed_point_in_a_changing_age",
+      "hero": "sherlock_holmes",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_game_is_afoot",
+      "hero": "sherlock_holmes",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "service_revolver",
+      "hero": "sherlock_holmes",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "elementary",
+      "hero": "sherlock_holmes",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "confirm_suspicion",
+      "hero": "sherlock_holmes",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "eliminate_the_impossible",
+      "hero": "sherlock_holmes",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "master_of_disguise",
+      "hero": "sherlock_holmes",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "administer_aid",
+      "hero": "sherlock_holmes",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "jekyll_hyde",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "skirmish",
+      "hero": "jekyll_hyde",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "duality_of_man",
+      "hero": "jekyll_hyde",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "distracted_triage",
+      "hero": "jekyll_hyde",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "succumb_to_compulsion",
+      "hero": "jekyll_hyde",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "madness_relents",
+      "hero": "jekyll_hyde",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "recoiling_blow",
+      "hero": "jekyll_hyde",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "forever_hyde",
+      "hero": "jekyll_hyde",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "with_haste",
+      "hero": "jekyll_hyde",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "scientific_method",
+      "hero": "jekyll_hyde",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "calming_research",
+      "hero": "jekyll_hyde",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "pure_evil",
+      "hero": "jekyll_hyde",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "strange_case",
+      "hero": "jekyll_hyde",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "covert_preparation",
+      "hero": "invisible_man",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "dreaming_of_revenge",
+      "hero": "invisible_man",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "confound",
+      "hero": "invisible_man",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "impossible_to_see",
+      "hero": "invisible_man",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "surprise_attack",
+      "hero": "invisible_man",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "slip_away",
+      "hero": "invisible_man",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "emerge_from_mist",
+      "hero": "invisible_man",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "lurking",
+      "hero": "invisible_man",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "into_thin_air",
+      "hero": "invisible_man",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "coded_notes",
+      "hero": "invisible_man",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "reign_of_terror",
+      "hero": "invisible_man",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "vanish",
+      "hero": "invisible_man",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "step_lightly",
+      "hero": "invisible_man",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "rolling_fog",
+      "hero": "invisible_man",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "skirmish",
+      "hero": "buffy",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "insight",
+      "hero": "buffy",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "training",
+      "hero": "buffy",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "right_hand_man",
+      "hero": "buffy",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "military_knowledge",
+      "hero": "buffy",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "daring_strike",
+      "hero": "buffy",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "cartwheel_kick",
+      "hero": "buffy",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "rapid_recovery",
+      "hero": "buffy",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "regroup",
+      "hero": "buffy",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "mr_pointy",
+      "hero": "buffy",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "slayer_s_strength",
+      "hero": "buffy",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "buffy",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "swift_strike",
+      "hero": "buffy",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "angel",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "wisdom_of_ages",
+      "hero": "angel",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "five_by_five",
+      "hero": "angel",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "killer_of_the_dead",
+      "hero": "angel",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "cursed_with_a_soul",
+      "hero": "angel",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "haunted_by_the_faces",
+      "hero": "angel",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "brooding",
+      "hero": "angel",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "regroup",
+      "hero": "angel",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "momentous_shift",
+      "hero": "angel",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "angelus_scourge_of_europe",
+      "hero": "angel",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "disengage",
+      "hero": "angel",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_rogue_slayer",
+      "hero": "angel",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "leap_away",
+      "hero": "spike",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "seek_the_shadows",
+      "hero": "spike",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_rush",
+      "hero": "spike",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "empathy",
+      "hero": "spike",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_sight",
+      "hero": "spike",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "always_surprising",
+      "hero": "spike",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "arrogance",
+      "hero": "spike",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "spike",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "skirmish",
+      "hero": "spike",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "regroup",
+      "hero": "spike",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "bloody_hell",
+      "hero": "spike",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "let_s_dance",
+      "hero": "spike",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "rending_shot",
+      "hero": "willow",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "meditation",
+      "hero": "willow",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "black_magic",
+      "hero": "willow",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "love_and_loss",
+      "hero": "willow",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "flayed_alive",
+      "hero": "willow",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "hacker",
+      "hero": "willow",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "when_good_magic_fails",
+      "hero": "willow",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "knowledge_of_the_craft",
+      "hero": "willow",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "resurrect",
+      "hero": "willow",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "revoke",
+      "hero": "willow",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "swift_strike",
+      "hero": "willow",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "willow",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "regroup",
+      "hero": "willow",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "what_large_hands_you_have",
+      "hero": "little_red",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_wolf_s_skin",
+      "hero": "little_red",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "what_a_terrible_big_mouth_you_have",
+      "hero": "little_red",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "what_big_ears_you_have",
+      "hero": "little_red",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "what_big_eyes_you_have",
+      "hero": "little_red",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "what_s_that_in_my_basket",
+      "hero": "little_red",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "never_leave_the_path",
+      "hero": "little_red",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "into_the_woods",
+      "hero": "little_red",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "long_have_i_sought_you",
+      "hero": "little_red",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "a_grimm_tale",
+      "hero": "little_red",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "stones_in_the_belly",
+      "hero": "little_red",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "once_upon_a_time",
+      "hero": "little_red",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "remnant_of_valor",
+      "hero": "beowulf",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "beowulf",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "epic_poem",
+      "hero": "beowulf",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "the_ancient_heirloom",
+      "hero": "beowulf",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "no_contest_expecteth",
+      "hero": "beowulf",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_war_king",
+      "hero": "beowulf",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_equal_of_grendel",
+      "hero": "beowulf",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "vigor_and_courage",
+      "hero": "beowulf",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "golden_drinking_horn",
+      "hero": "beowulf",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "hot_for__the_battle",
+      "hero": "beowulf",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "fatal_struggle",
+      "hero": "beowulf",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "skirmish",
+      "hero": "beowulf",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "vanishing_act",
+      "hero": "houdini",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_big_reveal",
+      "hero": "houdini",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "smoke_and_mirrors",
+      "hero": "houdini",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "sleight_of_hand",
+      "hero": "houdini",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "set_the_stage",
+      "hero": "houdini",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "misdirection",
+      "hero": "houdini",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "grand_escape",
+      "hero": "houdini",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "flourish",
+      "hero": "houdini",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "an_illusion_of_my_own_design",
+      "hero": "houdini",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "all_part_of_the_show",
+      "hero": "houdini",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "a_magician_never_reveals_his_secrets",
+      "hero": "houdini",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "for_my_next_trick",
+      "hero": "houdini",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "and_the_beautiful_bess",
+      "hero": "houdini",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "your_wish_is_my_command",
+      "hero": "genie",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "wishing_for_more_wishes",
+      "hero": "genie",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "three_wishes",
+      "hero": "genie",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "this_is_no_parlor_trick",
+      "hero": "genie",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "prisoners_torment",
+      "hero": "genie",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "ive_made_sultans_out_of_less",
+      "hero": "genie",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "imprisoned_wrath",
+      "hero": "genie",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "i_grant_you_death",
+      "hero": "genie",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "i_am_freed",
+      "hero": "genie",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "back_in_the_lamp",
+      "hero": "genie",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "careful_what_you_wish_for",
+      "hero": "genie",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "genie",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "battle_frenzy",
+      "hero": "achilles",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "test_for_weakness",
+      "hero": "achilles",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_day_of_your_doom",
+      "hero": "achilles",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "brothers_in_arms",
+      "hero": "achilles",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "achilles",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "battle_hardened",
+      "hero": "achilles",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "wily_fighting",
+      "hero": "achilles",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "blessed_by_hermes",
+      "hero": "achilles",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "skirmish",
+      "hero": "achilles",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "under_achilles_helm",
+      "hero": "achilles",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "achilles_heel",
+      "hero": "achilles",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "spear_throw",
+      "hero": "achilles",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "out_of_the_mirror",
+      "hero": "bloody_mary",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "ghostly_touch",
+      "hero": "bloody_mary",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "speak_three_times",
+      "hero": "bloody_mary",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "bloody_requiem",
+      "hero": "bloody_mary",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "feint",
+      "hero": "bloody_mary",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "trick_of_the_light",
+      "hero": "bloody_mary",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "broken_glass",
+      "hero": "bloody_mary",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "jump_scare",
+      "hero": "bloody_mary",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "stolen_memories",
+      "hero": "bloody_mary",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "infinity_mirror",
+      "hero": "bloody_mary",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "mirror_image",
+      "hero": "bloody_mary",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "evade",
+      "hero": "bloody_mary",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "closer_than_she_appears",
+      "hero": "bloody_mary",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "infinite_strikes",
+      "hero": "sun_wukong",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "ruyi_jingo_bang",
+      "hero": "sun_wukong",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "taunting_laughter",
+      "hero": "sun_wukong",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "ox_form",
+      "hero": "sun_wukong",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "72_transformations",
+      "hero": "sun_wukong",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "sly_monkey",
+      "hero": "sun_wukong",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "wily_fighting",
+      "hero": "sun_wukong",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "bewilderment",
+      "hero": "sun_wukong",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "golden_chain_mail",
+      "hero": "sun_wukong",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "tortoise_form",
+      "hero": "sun_wukong",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "fiery_eyes_that_see",
+      "hero": "sun_wukong",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "phoenix_form",
+      "hero": "sun_wukong",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "surprise_volley",
+      "hero": "yennenga",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "rain_of_arrows",
+      "hero": "yennenga",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "pin_the_prey",
+      "hero": "yennenga",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "divide_and_conquer",
+      "hero": "yennenga",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "point_blank",
+      "hero": "yennenga",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "momentous_shift",
+      "hero": "yennenga",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "jaws_of_the_beast",
+      "hero": "yennenga",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "skirmish",
+      "hero": "yennenga",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "stallion_charge",
+      "hero": "yennenga",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "shield_formation",
+      "hero": "yennenga",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "one_with_the_land",
+      "hero": "yennenga",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "master_of_the_hunt",
+      "hero": "yennenga",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "7_hertz",
+      "hero": "nikola_tesla",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_alternating_current",
+      "hero": "nikola_tesla",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "death_ray",
+      "hero": "nikola_tesla",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "fully_charged",
+      "hero": "nikola_tesla",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "intense_experimentation",
+      "hero": "nikola_tesla",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "kinetic_induction",
+      "hero": "nikola_tesla",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "lightning_storm",
+      "hero": "nikola_tesla",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "polyphase_coils",
+      "hero": "nikola_tesla",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "remote_control",
+      "hero": "nikola_tesla",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "repulsion_blast",
+      "hero": "nikola_tesla",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "x_ray_radiation",
+      "hero": "nikola_tesla",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "hypnotist",
+      "hero": "dr_jill_trent",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "battle_of_wits",
+      "hero": "dr_jill_trent",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "utility_belt",
+      "hero": "dr_jill_trent",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "stasis_diffuser",
+      "hero": "dr_jill_trent",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "gyroscopic_jetpack",
+      "hero": "dr_jill_trent",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "indestructible_cloth",
+      "hero": "dr_jill_trent",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "laser_pen",
+      "hero": "dr_jill_trent",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "insightful_deduction",
+      "hero": "dr_jill_trent",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "caught_red_handed",
+      "hero": "dr_jill_trent",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "energizing_spray",
+      "hero": "dr_jill_trent",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "helpful_assistant",
+      "hero": "dr_jill_trent",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "sisters_in_arms",
+      "hero": "dr_jill_trent",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "ace_fighter",
+      "hero": "dr_jill_trent",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "a_few_more_pearls",
+      "hero": "annie_christmas",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "captains_orders",
+      "hero": "annie_christmas",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "keep_your_hands_to_yourself",
+      "hero": "annie_christmas",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "lagniappe",
+      "hero": "annie_christmas",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "mississippi_queen",
+      "hero": "annie_christmas",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "striking_beauty",
+      "hero": "annie_christmas",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "better_together",
+      "hero": "annie_christmas",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "long_shot",
+      "hero": "annie_christmas",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "quite_a_pair",
+      "hero": "annie_christmas",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "slick_talker",
+      "hero": "annie_christmas",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "bottom_dealing",
+      "hero": "annie_christmas",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "the_turn_and_the_river",
+      "hero": "annie_christmas",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "a_punch_to_shake_the_earth",
+      "hero": "golden_bat",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "alpine_fortress",
+      "hero": "golden_bat",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "arrive_just_in_time",
+      "hero": "golden_bat",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "he_laughs_at_your_feebleness",
+      "hero": "golden_bat",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "imposing_presence",
+      "hero": "golden_bat",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "insight_of_the_ancients",
+      "hero": "golden_bat",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "like_a_flash_of_golden_light",
+      "hero": "golden_bat",
+      "passed": true,
+      "stages": 2
+    },
+    {
+      "card": "sight_beyond_sight",
+      "hero": "golden_bat",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "skirmish",
+      "hero": "golden_bat",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "super_strength",
+      "hero": "golden_bat",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "terrifying_roar",
+      "hero": "golden_bat",
+      "passed": true,
+      "stages": 1
+    },
+    {
+      "card": "vaporizing_eyebeams",
+      "hero": "golden_bat",
+      "passed": true,
+      "stages": 1
+    }
+  ],
+  "stages": 407
+}

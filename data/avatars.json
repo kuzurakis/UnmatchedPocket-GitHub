@@ -1,0 +1,1664 @@
+{
+  "alice": {
+    "hero": {
+      "path": "res://assets/avatars/alice_hero.webp",
+      "width": 402,
+      "height": 402,
+      "name": "Алиса",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/CDE8K9N6i_bdh-kwzJv7w.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/alice",
+      "region": [
+        55,
+        60,
+        290,
+        290
+      ]
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/alice_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "name": "Бармаглот",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/2Xt6pTFi1BqovPgKbANOJ.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/alice",
+      "region": [
+        15,
+        15,
+        98,
+        98
+      ]
+    }
+  },
+  "king_arthur": {
+    "hero": {
+      "path": "res://assets/avatars/king_arthur_hero.webp",
+      "width": 800,
+      "height": 800,
+      "name": "Король Артур",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/dgwIAej9v-Omrn0sSVs5i.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/king-arthur",
+      "region": [
+        220,
+        210,
+        400,
+        400
+      ]
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/king_arthur_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "name": "Мерлин",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/4Rl9Oq9N82zhatbTShnXn.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/king-arthur",
+      "region": [
+        15,
+        15,
+        98,
+        98
+      ]
+    }
+  },
+  "medusa": {
+    "hero": {
+      "path": "res://assets/avatars/medusa_hero.webp",
+      "width": 402,
+      "height": 402,
+      "name": "Медуза",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/bI206lUtJUQru-FOD8A74.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/medusa",
+      "region": [
+        30,
+        15,
+        280,
+        280
+      ]
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/medusa_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "name": "Гарпия",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/G42WIKYZ1cmwACVwMggzM.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/medusa",
+      "region": [
+        15,
+        15,
+        98,
+        98
+      ]
+    }
+  },
+  "sinbad": {
+    "hero": {
+      "path": "res://assets/avatars/sinbad_hero.webp",
+      "width": 750,
+      "height": 750,
+      "name": "Синдбад",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/2RiCcBVu5Tk09amVSf6BO.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/sinbad",
+      "region": [
+        175,
+        0,
+        400,
+        400
+      ]
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/sinbad_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "name": "Носильщик",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/2SD817c0HhsliZ40hRdB8.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/sinbad",
+      "region": [
+        15,
+        15,
+        98,
+        98
+      ]
+    }
+  },
+  "robin_hood": {
+    "hero": {
+      "path": "res://assets/avatars/robin_hood_hero.webp",
+      "width": 402,
+      "height": 402,
+      "name": "Робин Гуд",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/biGrBHVsYWTXjeEYTGqov.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/robin-hood",
+      "region": [
+        25,
+        0,
+        255,
+        255
+      ]
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/robin_hood_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "name": "Разбойник",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/KwI9DqW6Y6Je1Sj_ippng.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/robin-hood",
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ]
+    }
+  },
+  "bigfoot": {
+    "hero": {
+      "path": "res://assets/avatars/bigfoot_hero.webp",
+      "width": 402,
+      "height": 402,
+      "name": "Бигфут",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/mUid6ngk5qXZJQcZM0d6C.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/bigfoot",
+      "region": [
+        90,
+        0,
+        230,
+        230
+      ]
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/bigfoot_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "name": "Кролень",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/brjO1wbtbusXfYkfTDsZ6.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/bigfoot",
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ]
+    }
+  },
+  "bruce_lee": {
+    "hero": {
+      "path": "res://assets/avatars/bruce_lee_hero.webp",
+      "width": 402,
+      "height": 402,
+      "name": "Брюс Ли",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/Zhn4BRhIP_U1sAdFadtMG.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/bruce-lee",
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ]
+    }
+  },
+  "ingen": {
+    "hero": {
+      "path": "res://assets/avatars/ingen_hero.webp",
+      "width": 402,
+      "height": 402,
+      "name": "Роберт Малдун",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/YGWpoTEIA9IhNwuqiJR_V.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/robert-muldoon",
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ]
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/ingen_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "name": "Работник InGen",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/dZH3X5Qyq3Fd_A5mRZpJl.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/robert-muldoon",
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ]
+    }
+  },
+  "raptors": {
+    "hero": {
+      "path": "res://assets/avatars/raptors_hero.webp",
+      "width": 402,
+      "height": 402,
+      "name": "Раптор",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/XK60vlQzY_BhoHHrmyzzu.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/raptors",
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ]
+    }
+  },
+  "muhammad_ali": {
+    "hero": {
+      "path": "res://assets/avatars/muhammad_ali_hero.webp",
+      "width": 1024,
+      "height": 1024,
+      "name": "Мухаммед Али",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/-1FXUHpFLUrM-dvg9KNzT.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/muhammad-ali",
+      "region": [
+        122,
+        122,
+        778,
+        778
+      ],
+      "sha256": "4ab40f0d1db8aec8dc843b495738e695d1c0521acc47caa28e1164218225de5f"
+    }
+  },
+  "dracula": {
+    "hero": {
+      "path": "res://assets/avatars/dracula_hero.webp",
+      "width": 402,
+      "height": 402,
+      "name": "Дракула",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/Z4LCYo_MOeJ9S2nkJMsL1.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/dracula",
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "sha256": "419e1f8b47be5588c6e49dbdca0491faf98e4b5290510251cb615570a5705e16"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/dracula_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "name": "Сестра",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/Sieq2amzgUkiAkkiSbYal.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/dracula",
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "sha256": "115d4f4b755355749c71c7e8613155cf7869c695786e19e4a5812f205a6b6329"
+    }
+  },
+  "sherlock_holmes": {
+    "hero": {
+      "path": "res://assets/avatars/sherlock_holmes_hero.webp",
+      "width": 402,
+      "height": 402,
+      "name": "Шерлок Холмс",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/Sn0F_zfNmlLomR4uemo5d.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/sherlock-holmes",
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "sha256": "4b440a902bd0901605aacaf6717e6468527ee189a4ec60d99e5fd652a6bfe3cf"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/sherlock_holmes_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "name": "Доктор Ватсон",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/fym_KtKQPbkrtdjrGcnfS.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/sherlock-holmes",
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "sha256": "57f4026d9bbd41b03892577887570311cd5903ec7f6812c3e6786e209701d0df"
+    }
+  },
+  "jekyll_hyde": {
+    "hero": {
+      "path": "res://assets/avatars/jekyll_hyde_hero.webp",
+      "width": 402,
+      "height": 402,
+      "name": "Доктор Джекил и мистер Хайд",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/3G9V5x3JHXMZ4G5H3Kk7s.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/jekyll-hyde",
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "sha256": "688955b4cb62dde80f35c62024a29d24be5762db2fb637fe1df45bf74d5a720c"
+    }
+  },
+  "invisible_man": {
+    "hero": {
+      "path": "res://assets/avatars/invisible_man_hero.webp",
+      "width": 402,
+      "height": 402,
+      "name": "Человек-невидимка",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/aFgv0JsJ73OB_9iPmmd-5.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/invisible-man",
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "sha256": "cda7a298ca85e55795eb45d0687d57c8fe67845c3e684e6076bb6f953432e27d"
+    }
+  },
+  "buffy": {
+    "hero": {
+      "path": "res://assets/avatars/buffy_hero.webp",
+      "width": 402,
+      "height": 402,
+      "name": "Баффи",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/DOliZZWSHpy4co8J4b2xN.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/buffy",
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "sha256": "2861ad938fd6e2d2dd1e94c6ed651921e195eafd449c6871675b374a95a4176d"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/buffy_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "name": "Джайлз",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/lX2Ni2j2OmM_FsmKiq_37.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/buffy",
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "sha256": "25d02a0e47be93509f776d4d36e97e288cdbd6c8496c2d78a63a3e84f3a80915"
+    },
+    "sidekick_xander": {
+      "path": "res://assets/avatars/buffy_sidekick_xander.webp",
+      "width": 128,
+      "height": 128,
+      "name": "Ксандер",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/gEGkzo7WB5L9AIfreXglk.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/buffy",
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "sha256": "45f6f1dd2b86a448177f65cfc84cfbdb20ba74519cbaa61f28f09b0d7b8e2103"
+    }
+  },
+  "angel": {
+    "hero": {
+      "path": "res://assets/avatars/angel_hero.webp",
+      "width": 402,
+      "height": 402,
+      "name": "Ангел",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/PAcRY1ZoRQ8SG7KwlvB2L.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/angel",
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "sha256": "f2eb26a2afca4f4e7c73078505ca3f0e85399e0fe3d45490fc24947e82732a82"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/angel_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "name": "Фэйт",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/zgrjtwbbMWfA63a9QjL1W.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/angel",
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "sha256": "b76915a46b75779110a11a593913e91201ea49a9af735f4888009a6cd3260dac"
+    }
+  },
+  "spike": {
+    "hero": {
+      "path": "res://assets/avatars/spike_hero.webp",
+      "width": 402,
+      "height": 402,
+      "name": "Спайк",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/8cbBz-sTKxOpJJZEqo_yA.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/spike",
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "sha256": "1374f33d1c6bcc2054ec8cfaee6dfb07789f4113ec6b5c63c0b4bf7f2a421f07"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/spike_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "name": "Друзилла",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/ObnvDVQFY0eF3ucC8GmOK.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/spike",
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "sha256": "f579ed9a21892772f6836f7a27b2b57c80fa00a7a85aea1371e42aa040c80143"
+    }
+  },
+  "willow": {
+    "hero": {
+      "path": "res://assets/avatars/willow_hero.webp",
+      "width": 402,
+      "height": 402,
+      "name": "Уиллоу",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/JwCNL3Oj8Sh6ONpthEx8Q.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/willow",
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "sha256": "b984bf1c97eccc2e4c9bb8d685767a7bb3902147896276cbd2a3dd988770010d"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/willow_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "name": "Тара",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/QI42fwcI7yl86Z9bsO8Md.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/willow",
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "sha256": "976cafc12c8eb3683a58c6c891667f5cdb3d5718c2886157bb58760a120d7082"
+    }
+  },
+  "little_red": {
+    "hero": {
+      "path": "res://assets/avatars/little_red_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/5W_7-ObJntAkPZUG1JMUF.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/little-red",
+      "sha256": "2e43b0364366a5b2394252f4c3b8eba224f63da825be69a372c81f37fb4a20f1"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/little_red_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/VEXTjKWJLRGqwdY7_NCr5.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/little-red",
+      "sha256": "469e2e1ecb466c8426a2637016f923565a850998456893fd98524da9fcf90323"
+    }
+  },
+  "beowulf": {
+    "hero": {
+      "path": "res://assets/avatars/beowulf_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/TMzhqx7mBmq4qBDUSeikB.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/beowulf",
+      "sha256": "c26849d4f73d9e6b73b398d87e30abcc81af877ef797960aab2cb28567002300"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/beowulf_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/DrIgRWxmrpgvOZC_2xlbi.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/beowulf",
+      "sha256": "165c3524bdfdf5f37477d53c2efc0acaea165c6f21ff9af969453c514e391f76"
+    }
+  },
+  "houdini": {
+    "hero": {
+      "path": "res://assets/avatars/houdini_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/f3T3lLGwf__cTV6fVg4VR.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/harry-houdini",
+      "sha256": "e679919f19825691ae1ea6b5ce6d5a17d7037ebb86714cebe3161b6941af2548"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/houdini_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/RVJ0aO7DR1Zc0lSGyYd6b.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/harry-houdini",
+      "sha256": "932be1dcdb58e38fc61a2d9b0d38a8fbabf058d473b09523023f2b9381366d42"
+    }
+  },
+  "genie": {
+    "hero": {
+      "path": "res://assets/avatars/genie_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/5PGekj8V9JmcSaJxoNAph.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/the-genie",
+      "sha256": "425c5a032293295a142e0869df0305a589d3cbb57bce7789c0d5b1651c4bf130"
+    }
+  },
+  "achilles": {
+    "hero": {
+      "path": "res://assets/avatars/achilles_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/GVUVfvLlonuST8-fUwbnU.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/achilles",
+      "sha256": "e26773d07281ded63285c7fbbfc41b9839dd9f86339dcf6841b25b0da5d5968f"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/achilles_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/PQzBXj7JAn0vanxqXAJtz.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/achilles",
+      "sha256": "493dfa1865e9e1c404717594b7ced4bbc71c3779c07289257e7e0a07988a3b80"
+    }
+  },
+  "bloody_mary": {
+    "hero": {
+      "path": "res://assets/avatars/bloody_mary_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/tbqkuERgacU-HxLsb_uOt.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/bloody-mary",
+      "sha256": "9190eaa01ca3807bc9973087a4d730f3be78396a55bd0b8217a139c1b2cb15cd"
+    }
+  },
+  "sun_wukong": {
+    "hero": {
+      "path": "res://assets/avatars/sun_wukong_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/1P5P0HatPvHwUvwJuPyAc.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/sun-wukong",
+      "sha256": "251276b7e59ee6b4146edd3ffa80a964eb4c46ee659287c68f22350c7467087b"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/sun_wukong_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/lTECznDU1KVakYyjpL0UF.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/sun-wukong",
+      "sha256": "6a32966b0accd2aa1a9c38dee0717b0026fd88e73dda551488dedf281f206ed4"
+    }
+  },
+  "yennenga": {
+    "hero": {
+      "path": "res://assets/avatars/yennenga_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/zOc040ePREN1L73zKghTo.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/yennenga",
+      "sha256": "a7d4cf75d6ba921cb5c6109f3a806620de32d6d67441beb0ceface1bc7a644f0"
+    },
+    "sidekick": {
+      "path": "res://assets/cards/yennenga/divide_and_conquer.png",
+      "source_url": "https://static.unmatched.cards/images/umdb/decks/yennenga/divide-and-conquer.png",
+      "width": 100,
+      "height": 139,
+      "sha256": "7f8c20f0f2c25d4e602fc400a009a1d3d3ec83ddb6ca5d7bc0b54f36733f3b13",
+      "region": [
+        30,
+        7,
+        60,
+        60
+      ],
+      "kind": "portrait_region_from_official_card",
+      "page_url": "https://unmatched.cards/umdb/decks/yennenga"
+    }
+  },
+  "nikola_tesla": {
+    "hero": {
+      "path": "res://assets/avatars/nikola_tesla_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/e5U2QN0Pwk86GjvdSaEUn.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/nikola-tesla",
+      "sha256": "4f81668454c8ef57602239e4a655bdd7a8b574f2156a90526ab74eed29ca745b"
+    }
+  },
+  "dr_jill_trent": {
+    "hero": {
+      "path": "res://assets/avatars/dr_jill_trent_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/wCTyrOeMRsMgS0ewqEKoe.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/dr-jill-trent",
+      "sha256": "7b5e0af43557123860f39b4afd7b56b14a6a66485e634d1c92c6ef4cb0bb9453"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/dr_jill_trent_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/oKA7tGyNoa1DQ8_8Or4sT.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/dr-jill-trent",
+      "sha256": "046c8b0933937e7512729f36b9e39322a595afa9e63c35a9fd91f5f9a9a06290"
+    }
+  },
+  "annie_christmas": {
+    "hero": {
+      "path": "res://assets/avatars/annie_christmas_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/aNeDH_jPkjmrXA74EGDId.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/annie-christmas",
+      "sha256": "32b68d22adb3bc9389411cc75a11fd1dc8f1de664b73cd6528990142b9dfb0bb"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/annie_christmas_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/dUqMEP7OOzM1NxL64T9f2.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/annie-christmas",
+      "sha256": "f84ceadc327959b9c07a5f60ebac98f8c818c331a4f44106498288460ae703b8"
+    }
+  },
+  "golden_bat": {
+    "hero": {
+      "path": "res://assets/avatars/golden_bat_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/4D2VQezlfz2w5J6oUW1JG.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/golden-bat",
+      "sha256": "5071684c5d34d7b407114c14ec32350b7ed5be57f664e566f385ff9ae146e87f"
+    }
+  },
+  "oda_nobunaga": {
+    "hero": {
+      "path": "res://assets/avatars/oda_nobunaga_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/0ciiTDm6RZnI7Yul_t3oN.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/oda-nobunaga",
+      "sha256": "bd2e6b2972adb52ae52ee8bba73b07f78bbcbb9e521c3f95fe1edafa1cb02049"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/oda_nobunaga_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/eMvbI3i99GtNmhcdnu-9W.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/oda-nobunaga",
+      "sha256": "d666684998a8d8c31123b379c68f213f5ac84dfac98268efa83f70ea3b39c7a5"
+    }
+  },
+  "tomoe_gozen": {
+    "hero": {
+      "path": "res://assets/avatars/tomoe_gozen_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/-DwDeg2R2JA3DQDeTlT1K.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/tomoe-gozen",
+      "sha256": "0acd936169f4a8742a8e7ffd7b29a8cd45429c2f60a026784208b70a56e56d2d"
+    }
+  },
+  "william_shakespeare": {
+    "hero": {
+      "path": "res://assets/avatars/william_shakespeare_hero.webp",
+      "width": 450,
+      "height": 450,
+      "region": [
+        54,
+        54,
+        342,
+        342
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/ZuxNqlRtGvpl4wQqZGP1_.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/william-shakespeare",
+      "sha256": "f5a42b3b8c25105569b0ea7c3a2485d91117d57af99aba7a2eacb662224fc3ba"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/william_shakespeare_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/PnnMfoBIJMYvJzq_7yFk8.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/william-shakespeare",
+      "sha256": "32f56ecad71c10797de5ce549daf682db98ccdb7640049268e0fa121fd8907ad"
+    }
+  },
+  "hamlet": {
+    "hero": {
+      "path": "res://assets/avatars/hamlet_hero.webp",
+      "width": 478,
+      "height": 478,
+      "region": [
+        57,
+        57,
+        363,
+        363
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/h_TeY_o2t6e1Hc0PuUHq9.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/hamlet",
+      "sha256": "2441059872cf4ef9a1726fbfdc1fdaf180da13e6a7754f730aa868f654012763"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/hamlet_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/SgxYZQRA_yzaMm3IiCIaB.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/hamlet",
+      "sha256": "38728d2e7667f7acc80a40f8a35e74a4c966af247634dc8eebc2f1339b624ecd"
+    }
+  },
+  "titania": {
+    "hero": {
+      "path": "res://assets/avatars/titania_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/eIYCBXK4zLADI4StdxA6C.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/titania",
+      "sha256": "5c46766fd5015dbf9a894ce89c2ee7d201b6ca25aad41c96f1adf839614fb8eb"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/titania_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/Yjiame4Tws6PmxbH4EYt7.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/titania",
+      "sha256": "d05c63616a98acb21fe128a1836fae18f20315890dd851b85d820875659667f3"
+    }
+  },
+  "the_wayward_sisters": {
+    "hero": {
+      "path": "res://assets/avatars/the_wayward_sisters_hero.webp",
+      "width": 475,
+      "height": 475,
+      "region": [
+        57,
+        57,
+        361,
+        361
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/n7N9sZCj5WyYWLoNnmKUC.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/the-wayward-sisters",
+      "sha256": "e90782b8ec767cd602b9c41da871024d5f62b6d80ab5af6c0375212014286517"
+    }
+  },
+  "geralt_of_rivia": {
+    "hero": {
+      "path": "res://assets/avatars/geralt_of_rivia_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/uloq6RgnueP9r-U8B8Aji.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/geralt-of-rivia",
+      "sha256": "b40278cae76e34a891cfcc7088bc5c93551ade9277113988c6de3e06905dfcd8"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/geralt_of_rivia_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/oojOmpDUPdr9ZxOqcYUGh.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/geralt-of-rivia",
+      "sha256": "2533c997e78975b577be478b43edb943f7e33011fcdab15f2009229b7fb22c97"
+    }
+  },
+  "ciri": {
+    "hero": {
+      "path": "res://assets/avatars/ciri_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/JIcU8ycMS8OoE-uGNyC8L.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/ciri",
+      "sha256": "e5a8b565e4b3f9b4a5c7288daaf3e32ec08e75739029437f51327c5517deb1b1"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/ciri_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/BJJwG1YxmhbiplYjMpbZg.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/ciri",
+      "sha256": "5287a1f704ba88a658968dbed1470c3812b45b572c566248cd23a2db31f94fd8"
+    }
+  },
+  "ancient_leshen": {
+    "hero": {
+      "path": "res://assets/avatars/ancient_leshen_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/5HttYXcGYMWKEVUqu0MpL.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/ancient-leshen",
+      "sha256": "00f51617f46bd464fe4fccd1be2acb33b0e65ea26b70efe040e0372d03f406b1"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/ancient_leshen_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/KTmoO7novnPa5cybKurfF.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/ancient-leshen",
+      "sha256": "a20a8966a0ffa88a3ae3aaf71c80b03c721a277934d754beb2257fb022a4bbe8"
+    }
+  },
+  "eredin": {
+    "hero": {
+      "path": "res://assets/avatars/eredin_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/zq4oY_7de7uSfLrgPvaud.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/eredin",
+      "sha256": "57e57385de40a6ace50678c12af63dbbb5816c76541c6c10514eef69264c6d75"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/eredin_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/Yrz3oVniu6raoQiIBG6vN.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/eredin",
+      "sha256": "b86940fc332450d00b7b42cb7bcab8c76d0ee29cf14a034468fa1df608153f6e"
+    }
+  },
+  "philippa": {
+    "hero": {
+      "path": "res://assets/avatars/philippa_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/y7WkJkAhxC3V2PDV8tKev.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/philippa",
+      "sha256": "4b96a0c8db32fe27cc1a96e83c225175be2f9d7a51cab921a6ad520d90446425"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/philippa_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/BaHYP8NMlFG4KWkk6ACcJ.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/philippa",
+      "sha256": "e4c8478cab222708a652f3e1b50965e1459c7aae3b550ba977961bc44d67dc7d"
+    }
+  },
+  "yennefer_triss": {
+    "hero": {
+      "path": "res://assets/avatars/yennefer_triss_hero.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/vRJHkX8qnuUDEMat7lJf7.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/yennefer-triss",
+      "sha256": "4f50997e3c7c4d54dd80aa55def5cb9540902b96879a747c1fcc8c101cdba4d3"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/yennefer_triss_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/jAg2R0LWV7AzCbyl1piwT.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/yennefer-triss",
+      "sha256": "81fdcc121c3d4e2ece838a01b76777e7600da35cdf77484cd96d3be83fccbce7"
+    }
+  },
+  "daredevil": {
+    "hero": {
+      "path": "res://assets/avatars/daredevil_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/kZQUve8tqIcvmVUC-bGge.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/daredevil",
+      "sha256": "88a6ec27c1decd274652eb927932b61f579b2262eaddee5a22bd42a505b03138"
+    }
+  },
+  "elektra": {
+    "hero": {
+      "path": "res://assets/avatars/elektra_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/Zl3S54qv25uC4MxJ4sysy.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/elektra",
+      "sha256": "468234d6ea6fcaacf76f7abe90fd39614a922415884738abd764d4c598652b2d"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/elektra_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/jVYlwwR6-cnjRKz5ngHRK.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/elektra",
+      "sha256": "5f2f17bc6f882c236085c6be286cebc19dc9ea1d21ecdbd26e877d649555443e"
+    }
+  },
+  "bullseye": {
+    "hero": {
+      "path": "res://assets/avatars/bullseye_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/_UIzkUXnfQrxwluuBs2oJ.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/bullseye",
+      "sha256": "95d0c02911934f8116e9bc7a454a8a4d893b4c5026234b66943a5a741f7daeb1"
+    }
+  },
+  "luke_cage": {
+    "hero": {
+      "path": "res://assets/avatars/luke_cage_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/SVXSFa2SbzqL8PbsLSs-x.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/luke-cage",
+      "sha256": "73b98ac1c855cb4582e31e77bd276c3fee09dd1f72e6b7c3cc0f4c3ec0b2f3ed"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/luke_cage_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/2AE6EtfUgKK3fYsZzVZR5.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/luke-cage",
+      "sha256": "7e2d163d12cfcf23bdc757160620917a7f762583d067fbe88c357c52082cb9fe"
+    }
+  },
+  "t_rex": {
+    "hero": {
+      "path": "res://assets/avatars/t_rex_hero.webp",
+      "width": 768,
+      "height": 768,
+      "region": [
+        92,
+        92,
+        583,
+        583
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/9z9iaYFxdQpstwDftty0r.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/t-rex",
+      "sha256": "7cec7e403457010944a3ddb9f6e016fface3aa8092da48aaaaeb9dd83ebf9900"
+    }
+  },
+  "dr_ellie_sattler": {
+    "hero": {
+      "path": "res://assets/avatars/dr_ellie_sattler_hero.webp",
+      "width": 1000,
+      "height": 1000,
+      "region": [
+        120,
+        120,
+        760,
+        760
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/DbfY8-lCHoqT9PCFqn1Xw.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/dr-ellie-sattler",
+      "sha256": "786a1130f267aa763f5f0ec4f798b10285fdcb95f51c6fc3b000b3262eef4d80"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/dr_ellie_sattler_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/xzpneexU1oeuZJokn9a3U.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/dr-ellie-sattler",
+      "sha256": "6a54610f8ea65cfc27bfe47f748cf27af8f252434f8119c1855f6a8e51dca278"
+    }
+  },
+  "moon_knight": {
+    "hero": {
+      "path": "res://assets/avatars/moon_knight_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/PsKwB0NF06V_U3gRQdzQY.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/moon-knight",
+      "sha256": "d694fded8cfbf486b793797486412a2f18b81f0ecd22bf52c4984e9d68cefafd"
+    }
+  },
+  "ghost_rider": {
+    "hero": {
+      "path": "res://assets/avatars/ghost_rider_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/ZQE5LXXDX-LOR3y-mbMGL.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/ghost-rider",
+      "sha256": "74377b8bc8746c1baff323ef1e36c2431dacd8fa04d5d37cbe24867af49a7d3d"
+    }
+  },
+  "ms_marvel": {
+    "hero": {
+      "path": "res://assets/avatars/ms_marvel_hero.webp",
+      "width": 750,
+      "height": 705,
+      "region": [
+        90,
+        84,
+        570,
+        535
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/M61_bBineukElgyyqqSFu.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/ms-marvel",
+      "sha256": "74905ced8f812c8ecf11fa0b1e186d22e331c329f6039acfb0e8e7f94a435ed2"
+    }
+  },
+  "winter_soldier": {
+    "hero": {
+      "path": "res://assets/avatars/winter_soldier_hero.webp",
+      "width": 402,
+      "height": 402,
+      "region": [
+        48,
+        48,
+        305,
+        305
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/d0g6G1igwbxZ5sgU4M7Kn.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/winter-soldier",
+      "sha256": "411dda71f6633440405265be4183ddd66388db31f37faa00b3551658f6f59268"
+    }
+  },
+  "she_hulk": {
+    "hero": {
+      "path": "res://assets/avatars/she_hulk_hero.webp",
+      "width": 800,
+      "height": 800,
+      "region": [
+        96,
+        96,
+        608,
+        608
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/UgQvitTp_2xoOdzIwMdaK.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/she-hulk",
+      "sha256": "a903cbf8fadcf8317349bc23aaceef5d6a5ff7e423be66c091069e957d9c19a9"
+    }
+  },
+  "spider_man": {
+    "hero": {
+      "path": "res://assets/avatars/spider_man_hero.webp",
+      "width": 100,
+      "height": 139,
+      "region": [
+        12,
+        16,
+        76,
+        105
+      ],
+      "source_url": "https://static.unmatched.cards/images/umdb/decks/spider-man/friendly-neighborhood-spider-man.png",
+      "page_url": "https://www.the-unmatched.club/heroes/spider-man",
+      "sha256": "b3123ceff13165778872bd490535dbaaa5c5f7696fc490e1fd68d21a213bf486",
+      "conversion": "Reencoded to WebP from source image"
+    }
+  },
+  "doctor_strange": {
+    "hero": {
+      "path": "res://assets/avatars/doctor_strange_hero.webp",
+      "width": 800,
+      "height": 800,
+      "region": [
+        96,
+        96,
+        608,
+        608
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/CJXoR9gdcRrfzl2EUxUBq.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/doctor-strange",
+      "sha256": "a8be6e22885d6a4dd325d20616157e455d22e33f67caf2ffd9eaf0015b26858c"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/doctor_strange_sidekick.webp",
+      "width": 128,
+      "height": 128,
+      "region": [
+        15,
+        15,
+        97,
+        97
+      ],
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/WOhUVtWlnBO9m_4ZNpDvc.webp",
+      "page_url": "https://www.the-unmatched.club/heroes/doctor-strange",
+      "sha256": "6b8ca0f7fe70b10c1889b8dd434594a630eecddb2921d451a8c90f3f4de412c5"
+    }
+  },
+  "cloak_and_dagger": {
+    "hero": {
+      "path": "res://assets/avatars/cloak_and_dagger_hero.webp",
+      "width": 99,
+      "height": 140,
+      "region": [
+        11,
+        16,
+        75,
+        106
+      ],
+      "source_url": "https://static.unmatched.cards/images/umdb/decks/cloak-and-dagger/channel-the-dark.png",
+      "page_url": "https://www.the-unmatched.club/heroes/cloak-and-dagger",
+      "sha256": "54464727d601eba1472c3fd3185565a9ce41e8f605a7b35ff56711a9d74504d3",
+      "conversion": "Reencoded to WebP from source image"
+    }
+  },
+  "svyatogor": {
+    "hero": {
+      "path": "res://assets/avatars/svyatogor-user.jpg",
+      "name": "Святогор",
+      "region": [
+        500,
+        20,
+        740,
+        740
+      ]
+    }
+  },
+  "mikula": {
+    "hero": {
+      "path": "res://assets/avatars/mikula.jpg",
+      "name": "Микула",
+      "region": [
+        140,
+        80,
+        800,
+        800
+      ]
+    }
+  },
+  "black_panther": {
+    "hero": {
+      "path": "res://assets/avatars/black_panther_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/vawZJ9iyk4ssG83p9mVdL.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/black_panther_sidekick.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/sYUUC_eJ5vb8F7UhVEbaP.webp"
+    }
+  },
+  "black_widow": {
+    "hero": {
+      "path": "res://assets/avatars/black_widow_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/eWl7lGi3yl3G8SWnAMEcZ.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/black_widow_sidekick.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/-0_qY__PQH4Ltj9azkWle.webp"
+    }
+  },
+  "squirrel_girl": {
+    "hero": {
+      "path": "res://assets/avatars/squirrel_girl_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/VKLRzXVv8vyJg4k9effvj.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/squirrel_girl_sidekick.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/0s3SiJxqXxNTDgWvg4SDS.webp"
+    }
+  },
+  "deadpool": {
+    "hero": {
+      "path": "res://assets/avatars/deadpool_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/v_3vwYEyLg8jmgaTz-3mp.webp"
+    }
+  },
+  "blackbeard": {
+    "hero": {
+      "path": "res://assets/avatars/blackbeard_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/r3uOkimJegDYnEAu7cjz3.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/blackbeard_sidekick.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/hIwnvFiEt-qguLvRoENRK.webp"
+    }
+  },
+  "loki": {
+    "hero": {
+      "path": "res://assets/avatars/loki_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/uJ0Ax4lUynHaNnQ_Ivt-O.webp"
+    }
+  },
+  "chupacabra": {
+    "hero": {
+      "path": "res://assets/avatars/chupacabra_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/W03sz0_dGlPDN4M67p2nj.webp"
+    }
+  },
+  "pandora": {
+    "hero": {
+      "path": "res://assets/avatars/pandora_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/L6YXygILb5dt88E-NXXyI.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/pandora_sidekick.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/JkljTdDTZDyfkgAaNwzlf.webp"
+    }
+  },
+  "leonardo": {
+    "hero": {
+      "path": "res://assets/avatars/leonardo_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/7JeeRqntW8KzTvkd513Ow.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/leonardo_sidekick.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/p9SHLwIUUyYQzTh0uqh2R.webp"
+    }
+  },
+  "donatello": {
+    "hero": {
+      "path": "res://assets/avatars/donatello_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/6S5BtmTUgNgRBCGX8_jZ6.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/donatello_sidekick.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/FgiRRkshMeb1x4vsgScF9.webp"
+    }
+  },
+  "michelangelo": {
+    "hero": {
+      "path": "res://assets/avatars/michelangelo_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/fo35ilpS_ZI8OIcVkOGgC.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/michelangelo_sidekick.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/Nq9hPlIceAQPnTYjYaOPR.webp"
+    }
+  },
+  "raphael": {
+    "hero": {
+      "path": "res://assets/avatars/raphael_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/GYGpAYD5L2iZ-eHRL2nU6.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/raphael_sidekick.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/DeNkCmvEIYtmhH1Olhv3S.webp"
+    }
+  },
+  "george_washington": {
+    "hero": {
+      "path": "res://assets/avatars/george-washington_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/IGiY7-_JYGjY3wE2L8EMw.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/george-washington_sidekick.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/zYsb_tLRSwv_OQ9HH7eMZ.webp"
+    }
+  },
+  "rosie_the_riveter": {
+    "hero": {
+      "path": "res://assets/avatars/rosie-the-riveter_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/WBP2rp8B_V5Svz-L1mizg.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/rosie-the-riveter_sidekick.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/jwQ7CIvTGS3oQjQ4VRF4x.webp"
+    }
+  },
+  "john_henry": {
+    "hero": {
+      "path": "res://assets/avatars/john-henry_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/2iywGScFp4nJwnHY5iLLv.webp"
+    }
+  },
+  "wyatt_earp": {
+    "hero": {
+      "path": "res://assets/avatars/wyatt-earp_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/5nWRveBPVmJ5z1fVZforC.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/wyatt-earp_sidekick.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/mRUXMdPQPyn-ToVeDts8c.webp"
+    }
+  },
+  "hellboy": {
+    "hero": {
+      "path": "res://assets/avatars/hellboy_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/lOVSMHARuGIKp_En5kEbf.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/hellboy_sidekick.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/O8zan_KGm8e35oEBL7fFH.webp"
+    }
+  },
+  "abe_sapien": {
+    "hero": {
+      "path": "res://assets/avatars/abe-sapien_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/ZSInXQcDZMY-pVAnEosni.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/abe-sapien_sidekick.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/zfFG1PiP8bLE4LWmVJB4J.webp"
+    }
+  },
+  "liz_sherman": {
+    "hero": {
+      "path": "res://assets/avatars/liz-sherman_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/KfRMIlVx6YD5ZR4E6g6Vd.webp"
+    }
+  },
+  "baba_yaga": {
+    "hero": {
+      "path": "res://assets/avatars/baba-yaga_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/rS7JhR8wo2B1CZ4Cst1hW.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/baba-yaga_sidekick.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/emOomlwbu5gKbdnJXLdhH.webp"
+    }
+  },
+  "shredder": {
+    "hero": {
+      "path": "res://assets/avatars/shredder_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/Sb6FSI180CfXcw6POi5BG.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/shredder_sidekick.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/sidekicks/B12Q0KBTICkh2vWjUJtpZ.webp"
+    }
+  },
+  "krang": {
+    "hero": {
+      "path": "res://assets/avatars/krang_hero.webp",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/avatars/Y3FlCKtXBzC9fKHe0bNjj.webp"
+    }
+  },
+  "birds": {
+    "hero": {
+      "path": "res://assets/avatars/birds_hero.webp"
+    }
+  },
+  "moose": {
+    "hero": {
+      "path": "res://assets/avatars/moose_hero.webp"
+    }
+  },
+  "kraken": {
+    "hero": {
+      "path": "res://assets/avatars/kraken_hero.webp"
+    },
+    "sidekick": {
+      "path": "res://assets/avatars/kraken_sidekick.webp"
+    }
+  },
+  "godzilla": {
+    "hero": {
+      "path": "res://assets/avatars/godzilla_hero.webp"
+    }
+  }
+}

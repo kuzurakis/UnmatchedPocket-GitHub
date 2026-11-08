@@ -1,0 +1,5537 @@
+[
+  {
+    "hero": "alice",
+    "card": "i_m_late_i_m_late",
+    "description": "После боя: Алиса двигается на 0–5 клеток, затем меняет размер.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_hero5 size"
+      }
+    ]
+  },
+  {
+    "hero": "alice",
+    "card": "looking_glass",
+    "description": "После боя выбрать два: взять 2 карты; вылечить Алисе 3; перенести Алису на другую свободную клетку.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2 heal3"
+      }
+    ]
+  },
+  {
+    "hero": "alice",
+    "card": "mad_as_a_hatter",
+    "description": "После боя: каждый союзный боец двигается на 0–2 клетки; Алиса меняет размер.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_friendly2 size"
+      }
+    ]
+  },
+  {
+    "hero": "alice",
+    "card": "o_frabjous_day",
+    "description": "После боя: изменить размер Алисы.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "size"
+      }
+    ]
+  },
+  {
+    "hero": "alice",
+    "card": "snicker_snack",
+    "description": "После победы: посмотреть руку соперника и выбрать карту для сброса.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "enemy_discard1 peek"
+      }
+    ]
+  },
+  {
+    "hero": "alice",
+    "card": "the_other_side_of_the_mushroom",
+    "description": "После боя: Алиса двигается на 0–3 клетки, затем меняет размер.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_hero3 size"
+      }
+    ]
+  },
+  {
+    "hero": "alice",
+    "card": "drink_me",
+    "description": "Взять 2 карты; изменить размер Алисы.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "draw2 size"
+      }
+    ]
+  },
+  {
+    "hero": "alice",
+    "card": "eat_me",
+    "description": "Алиса двигается на 0–3 клетки, затем меняет размер.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "move_hero3 size"
+      }
+    ]
+  },
+  {
+    "hero": "alice",
+    "card": "claws_that_catch",
+    "description": "В бою против героя: сила 5.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      }
+    ]
+  },
+  {
+    "hero": "alice",
+    "card": "jaws_that_bite",
+    "description": "После боя: нанести 2 урона одному бойцу рядом с Бармаглотом.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage2"
+      }
+    ]
+  },
+  {
+    "hero": "alice",
+    "card": "feint",
+    "description": "Сразу: отменить эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "alice",
+    "card": "manxome_foe",
+    "description": "В бою: сбросить верх колоды; добавить усиление сброшенной карты к силе.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 own_deck1 own_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "alice",
+    "card": "momentous_shift",
+    "description": "В бою: сила 5, если боец начал этот ход на другой клетке.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      }
+    ]
+  },
+  {
+    "hero": "alice",
+    "card": "regroup",
+    "description": "После боя: взять карту; при победе — две.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "alice",
+    "card": "skirmish",
+    "description": "После победы: передвинуть любого участника боя на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either2"
+      }
+    ]
+  },
+  {
+    "hero": "king_arthur",
+    "card": "divine_intervention",
+    "description": "После боя: Артур двигается на 0–5 клеток.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_hero5"
+      }
+    ]
+  },
+  {
+    "hero": "king_arthur",
+    "card": "excalibur",
+    "description": "Дополнительного эффекта нет.",
+    "contracts": [
+      {
+        "stage": "none",
+        "oracle": "printed"
+      }
+    ]
+  },
+  {
+    "hero": "king_arthur",
+    "card": "noble_sacrifice",
+    "description": "В бою можно усилить атаку ещё одной картой, дополнительно к способности Артура.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 own_hand_minus1"
+      }
+    ]
+  },
+  {
+    "hero": "king_arthur",
+    "card": "the_aid_of_morgana",
+    "description": "После боя: взять 2 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "king_arthur",
+    "card": "the_holy_grail",
+    "description": "После боя: если Артур жив и имеет 1–4 здоровья, установить ему 8 здоровья.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "grail8"
+      }
+    ]
+  },
+  {
+    "hero": "king_arthur",
+    "card": "the_lady_of_the_lake",
+    "description": "Вернуть Экскалибур в руку из колоды или сброса; после поиска в колоде перемешать её.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "retrieve_excalibur"
+      }
+    ]
+  },
+  {
+    "hero": "king_arthur",
+    "card": "aid_the_chosen_one",
+    "description": "После победы: взять 2 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "king_arthur",
+    "card": "bewilderment",
+    "description": "В бою: предотвратить весь урон. После боя можно перенести Мерлина на свободную клетку.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "prevent_all"
+      },
+      {
+        "stage": "after",
+        "oracle": "place_self_any"
+      }
+    ]
+  },
+  {
+    "hero": "king_arthur",
+    "card": "command_the_storms",
+    "description": "Передвинуть каждого бойца, включая вражеских, на 0–3 клетки.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "move_every3"
+      }
+    ]
+  },
+  {
+    "hero": "king_arthur",
+    "card": "prophecy",
+    "description": "Из четырёх верхних карт взять две; остальные вернуть наверх в выбранном порядке.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "prophecy"
+      }
+    ]
+  },
+  {
+    "hero": "king_arthur",
+    "card": "restless_spirits",
+    "description": "Выбрать клетку в зоне Мерлина и соседнюю с ней; врагам там по 2 урона. За устранение — карта.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "spirits"
+      }
+    ]
+  },
+  {
+    "hero": "king_arthur",
+    "card": "feint",
+    "description": "Сразу: отменить эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "king_arthur",
+    "card": "momentous_shift",
+    "description": "В бою: сила 5, если боец начал этот ход на другой клетке.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      }
+    ]
+  },
+  {
+    "hero": "king_arthur",
+    "card": "regroup",
+    "description": "После боя: взять карту; при победе — две.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "king_arthur",
+    "card": "skirmish",
+    "description": "После победы: передвинуть любого участника боя на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either2"
+      }
+    ]
+  },
+  {
+    "hero": "king_arthur",
+    "card": "swift_strike",
+    "description": "После боя: этот боец двигается на 0–4 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_self4"
+      }
+    ]
+  },
+  {
+    "hero": "medusa",
+    "card": "gaze_of_stone",
+    "description": "После победы: нанести сопернику в этом бою ещё 8 урона.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage8"
+      }
+    ]
+  },
+  {
+    "hero": "medusa",
+    "card": "hiss_and_slither",
+    "description": "После боя: соперник выбирает и сбрасывает карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "medusa",
+    "card": "second_shot_3",
+    "description": "В бою можно усилить атаку картой из руки.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 own_hand_minus1"
+      }
+    ]
+  },
+  {
+    "hero": "medusa",
+    "card": "a_momentary_glance",
+    "description": "Нанести 2 урона одному бойцу в зоне Медузы.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "damage2"
+      }
+    ]
+  },
+  {
+    "hero": "medusa",
+    "card": "clutching_claws",
+    "description": "После боя: соперник выбирает и сбрасывает карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "medusa",
+    "card": "the_hounds_of_mighty_zeus",
+    "description": "После боя: каждая гарпия двигается на 0–3 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_helpers3"
+      }
+    ]
+  },
+  {
+    "hero": "medusa",
+    "card": "dash",
+    "description": "После боя: этот боец двигается на 0–3 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_self3"
+      }
+    ]
+  },
+  {
+    "hero": "medusa",
+    "card": "feint",
+    "description": "Сразу: отменить эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "medusa",
+    "card": "regroup",
+    "description": "После боя: взять карту; при победе — две.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "medusa",
+    "card": "snipe",
+    "description": "После боя: взять карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw1"
+      }
+    ]
+  },
+  {
+    "hero": "medusa",
+    "card": "winged_frenzy",
+    "description": "Союзники двигаются на 0–3 клетки сквозь врагов. Затем можно вернуть гарпию на свободную клетку зоны Медузы.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "move_friendly3_through revive"
+      }
+    ]
+  },
+  {
+    "hero": "sinbad",
+    "card": "toil_and_danger",
+    "description": "После боя: Синдбад двигается на 0–3 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_hero3"
+      }
+    ]
+  },
+  {
+    "hero": "sinbad",
+    "card": "voyage_home",
+    "description": "В бою: +1 за другое плавание в сбросе. После: вернуть остальные плавания из сброса в руку.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2"
+      },
+      {
+        "stage": "after",
+        "oracle": "retrieve_voyages"
+      }
+    ]
+  },
+  {
+    "hero": "sinbad",
+    "card": "voyage_to_the_cannibals_with_the_root_of_madness",
+    "description": "В бою: +1 за другое плавание в сбросе. После: Синдбад двигается на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2"
+      },
+      {
+        "stage": "after",
+        "oracle": "move_hero2"
+      }
+    ]
+  },
+  {
+    "hero": "sinbad",
+    "card": "voyage_to_the_city_of_the_king_of_serendib",
+    "description": "В бою: +1 за другое плавание в сбросе. После: взять карту.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2"
+      },
+      {
+        "stage": "after",
+        "oracle": "draw1"
+      }
+    ]
+  },
+  {
+    "hero": "sinbad",
+    "card": "voyage_to_the_city_of_the_man_eating_apes",
+    "description": "В бою: +1 за другое плавание в сбросе. После: нанести участнику боя напротив 2 урона.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2"
+      },
+      {
+        "stage": "after",
+        "oracle": "damage2"
+      }
+    ]
+  },
+  {
+    "hero": "sinbad",
+    "card": "voyage_to_the_creature_with_eyes_like_coals_of_fire",
+    "description": "В бою: +1 за другое плавание в сбросе. После: соперник сбрасывает случайную карту.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2"
+      },
+      {
+        "stage": "after",
+        "oracle": "enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "sinbad",
+    "card": "voyage_to_the_island_that_was_a_whale",
+    "description": "В бою: +1 за другое плавание в сбросе. После: вылечить Синдбаду 2 здоровья.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2"
+      },
+      {
+        "stage": "after",
+        "oracle": "heal2"
+      }
+    ]
+  },
+  {
+    "hero": "sinbad",
+    "card": "voyage_to_the_valley_of_the_giant_snakes",
+    "description": "В бою: +1 за другое плавание в сбросе. После: посмотреть руку соперника.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2"
+      },
+      {
+        "stage": "after",
+        "oracle": "peek"
+      }
+    ]
+  },
+  {
+    "hero": "sinbad",
+    "card": "riches_beyond_compare",
+    "description": "Взять 3 карты.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "draw3"
+      }
+    ]
+  },
+  {
+    "hero": "sinbad",
+    "card": "by_fortune_and_fate",
+    "description": "После боя: взять 2 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "sinbad",
+    "card": "commanding_impact",
+    "description": "После боя: взять карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw1"
+      }
+    ]
+  },
+  {
+    "hero": "sinbad",
+    "card": "exploit",
+    "description": "После боя: взять карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw1"
+      }
+    ]
+  },
+  {
+    "hero": "sinbad",
+    "card": "feint",
+    "description": "Сразу: отменить эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "sinbad",
+    "card": "leap_away",
+    "description": "После победы: передвинуть любого участника боя на 0–4 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either4"
+      }
+    ]
+  },
+  {
+    "hero": "sinbad",
+    "card": "momentous_shift",
+    "description": "В бою: сила 5, если боец начал этот ход на другой клетке.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      }
+    ]
+  },
+  {
+    "hero": "sinbad",
+    "card": "regroup",
+    "description": "После боя: взять карту; при победе — две.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "robin_hood",
+    "card": "ambush",
+    "description": "В бою: соперник сбрасывает случайную карту; её усиление добавляется к силе атаки.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "robin_hood",
+    "card": "a_hunter_s_eye",
+    "description": "Дополнительного эффекта нет.",
+    "contracts": [
+      {
+        "stage": "none",
+        "oracle": "printed"
+      }
+    ]
+  },
+  {
+    "hero": "robin_hood",
+    "card": "steal_from_the_rich",
+    "description": "Взять карту и выбрать противника. Он может сбросить карту; иначе вы берёте ещё одну.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "draw1 enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "robin_hood",
+    "card": "disarming_shot",
+    "description": "После боя: взять столько карт, сколько боевого урона нанесено противнику.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw3"
+      }
+    ]
+  },
+  {
+    "hero": "robin_hood",
+    "card": "piercing_shot",
+    "description": "После боя: взять 2 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "robin_hood",
+    "card": "defenders_of_sherwood",
+    "description": "После боя: взять карту; вернуть побеждённого разбойника на свободную клетку в зоне Робина.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw1 revive"
+      }
+    ]
+  },
+  {
+    "hero": "robin_hood",
+    "card": "highway_robbery",
+    "description": "Сразу: отменить эффекты карты защиты и игнорировать её силу.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel ignore_defense"
+      }
+    ]
+  },
+  {
+    "hero": "robin_hood",
+    "card": "snark",
+    "description": "После боя: взять карту, если ваш боец всё ещё рядом с противником из этого боя.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw1"
+      }
+    ]
+  },
+  {
+    "hero": "robin_hood",
+    "card": "wily_fighting",
+    "description": "После боя: по 1 урону всем вражеским бойцам рядом с вашим бойцом.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "adjacent_enemies1"
+      }
+    ]
+  },
+  {
+    "hero": "robin_hood",
+    "card": "feint",
+    "description": "Сразу: отменить эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "robin_hood",
+    "card": "regroup",
+    "description": "После боя: взять карту; при победе — две.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "bigfoot",
+    "card": "skirmish",
+    "description": "После победы: передвинуть любого участника боя на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either2"
+      }
+    ]
+  },
+  {
+    "hero": "bigfoot",
+    "card": "larger_than_life",
+    "description": "Дополнительного эффекта нет.",
+    "contracts": [
+      {
+        "stage": "none",
+        "oracle": "printed"
+      }
+    ]
+  },
+  {
+    "hero": "bigfoot",
+    "card": "crash_through_the_trees",
+    "description": "Бигфут двигается на 0–5 клеток, проходя сквозь врагов.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "move_hero5_through"
+      }
+    ]
+  },
+  {
+    "hero": "bigfoot",
+    "card": "it_s_just_your_imagination",
+    "description": "Сразу: отменить эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "bigfoot",
+    "card": "savagery",
+    "description": "После победы: по 1 урону каждому бойцу рядом с Бигфутом, включая союзников.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "adjacent_all1"
+      }
+    ]
+  },
+  {
+    "hero": "bigfoot",
+    "card": "hoax",
+    "description": "После боя: ваш боец двигается на 0–5 клеток, проходя сквозь врагов.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_self5_through"
+      }
+    ]
+  },
+  {
+    "hero": "bigfoot",
+    "card": "jackalope_horns",
+    "description": "Кролень двигается на 0–5 клеток сквозь врагов. Затем 2 урона одному соседнему бойцу.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "move_self5_through damage2"
+      }
+    ]
+  },
+  {
+    "hero": "bigfoot",
+    "card": "disengage",
+    "description": "После боя: перенести своего бойца на свободную клетку в его зоне.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "place_self_zone"
+      }
+    ]
+  },
+  {
+    "hero": "bigfoot",
+    "card": "momentous_shift",
+    "description": "В бою: сила 5, если боец начал этот ход на другой клетке.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      }
+    ]
+  },
+  {
+    "hero": "bigfoot",
+    "card": "feint",
+    "description": "Сразу: отменить эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "bigfoot",
+    "card": "regroup",
+    "description": "После боя: взять карту; при победе — две.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "skirmish",
+    "description": "После боя: при победе выберите любого участника боя и передвиньте его на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either2"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "little_dragon",
+    "description": "В бою: если у вас нет карт в руке, сила этой карты 6. После боя: возьмите 2 карты.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value6"
+      },
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "taste_of_blood",
+    "description": "После боя: если у Брюса Ли осталось 5 здоровья или меньше, возьмите 3 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw3"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "be_like_water",
+    "description": "После боя: верните в руку 1 карту «Джит Кун-До» из своего сброса.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "retrieve_jeet"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "hoo_whaaaaaa",
+    "description": "Верните в руку 1 карту «Джит Кун-До» из своего сброса. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "retrieve_jeet action1"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "jeet_kune_do_high_straight_lead",
+    "description": "В бою: сила 5, если любой из участников боя начал ход на другой клетке. После боя: получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      },
+      {
+        "stage": "after",
+        "oracle": "action1"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "jeet_kune_do_downward_side_kick",
+    "description": "После боя: соперник сбрасывает 1 случайную карту. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "enemy_discard1 action1"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "jeet_kune_do_wrist_lock",
+    "description": "После боя: возьмите 1 карту. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw1 action1"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "jeet_kune_do_intercepting_fist",
+    "description": "Сразу: отмените все эффекты карты соперника. После боя: получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      },
+      {
+        "stage": "after",
+        "oracle": "action1"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "jeet_kune_do_corkscrew_finger_jab",
+    "description": "После боя: нанесите 1 урон противнику в этом бою. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage1 action1"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "jeet_kune_do_short_lead_hook",
+    "description": "После боя: можете поменять Брюса Ли местами с противником в этом бою. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "swap action1"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "bring_it_on",
+    "description": "Выберите вражеского бойца в зоне Брюса Ли. Поместите его на любую свободную клетку рядом с Брюсом Ли. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "bring action1"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "one_inch_punch",
+    "description": "Нанесите 2 урона любому соседнему бойцу. Если он побеждён этим уроном, верните эту карту в руку вместо сброса.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "damage2"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "nunchaku",
+    "description": "Все атаки Брюса Ли до конца этого хода получают +1 к силе. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "turn_bonus1 action1"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "momentous_shift",
+    "description": "В бою: сила 5, если ваш боец начал этот ход на другой клетке.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "feint",
+    "description": "Сразу: отмените все эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "bruce_lee",
+    "card": "regroup",
+    "description": "После боя: возьмите 1 карту; при победе — 2 карты вместо 1.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "ingen",
+    "card": "leap_away",
+    "description": "После боя: при победе выберите любого участника боя и передвиньте его на 0–4 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either4"
+      }
+    ]
+  },
+  {
+    "hero": "ingen",
+    "card": "they_should_all_be_destroyed",
+    "description": "В бою: эта атака получает +1 к силе за каждую ловушку рядом с противником в этом бою.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2"
+      }
+    ]
+  },
+  {
+    "hero": "ingen",
+    "card": "shoot_her",
+    "description": "В бою: если это ваше первое действие в этом ходу, сила карты 5.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      }
+    ]
+  },
+  {
+    "hero": "ingen",
+    "card": "i_ve_hunted_most_things_that_can_hunt_you",
+    "description": "После боя: передвиньте каждого своего бойца на 0–5 клеток. Они могут проходить через клетки с врагами.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_friendly5_through"
+      }
+    ]
+  },
+  {
+    "hero": "ingen",
+    "card": "call_for_backup",
+    "description": "Выберите два разных эффекта: разместить до 3 ловушек; вернуть всех своих побеждённых работников на свободные клетки в зоне Малдуна; взять 2 карты.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "backup"
+      }
+    ]
+  },
+  {
+    "hero": "ingen",
+    "card": "tactical_advance",
+    "description": "После боя: передвиньте каждого своего работника InGen на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_helpers2"
+      }
+    ]
+  },
+  {
+    "hero": "ingen",
+    "card": "remote_detonation",
+    "description": "Выберите ловушку в одной зоне с любым своим работником. Нанесите по 1 урону каждому врагу рядом с ней. Уберите ловушку в коробку.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "detonation"
+      }
+    ]
+  },
+  {
+    "hero": "ingen",
+    "card": "rending_shot",
+    "description": "После боя: передвиньте противника в этом бою на 0–3 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_enemy3"
+      }
+    ]
+  },
+  {
+    "hero": "ingen",
+    "card": "feint",
+    "description": "Сразу: отмените все эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "ingen",
+    "card": "regroup",
+    "description": "После боя: возьмите 1 карту; при победе — 2 карты вместо 1.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "ingen",
+    "card": "second_shot_2",
+    "description": "В бою: вы можете усилить эту атаку, сбросив карту и прибавив её усиление.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 own_hand_minus1"
+      }
+    ]
+  },
+  {
+    "hero": "raptors",
+    "card": "disengage",
+    "description": "После боя: поместите этого бойца на свободную клетку в его зоне.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "place_self_zone"
+      }
+    ]
+  },
+  {
+    "hero": "raptors",
+    "card": "clever_girl",
+    "description": "После боя: если хотя бы один ваш раптор находится рядом с противником в этом бою, получите 1 действие. Сам участник боя тоже учитывается.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "action1"
+      }
+    ]
+  },
+  {
+    "hero": "raptors",
+    "card": "coordinated_attack_pattern",
+    "description": "Выберите одного своего раптора. Каждого другого своего раптора можно поместить на любую свободную клетку в зоне выбранного раптора.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "coordinate"
+      }
+    ]
+  },
+  {
+    "hero": "raptors",
+    "card": "pack_hunters",
+    "description": "После боя: при победе нанесите противнику в этом бою по 1 урону за каждого своего раптора рядом с ним, включая участника боя.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage3"
+      }
+    ]
+  },
+  {
+    "hero": "raptors",
+    "card": "eaten_alive",
+    "description": "После боя: при победе нанесите 1 урон одному вражескому бойцу рядом с вашим участником боя.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage1"
+      }
+    ]
+  },
+  {
+    "hero": "raptors",
+    "card": "working_things_out",
+    "description": "Передвиньте каждого своего раптора на 0–3 клетки. Можно проходить через клетки с врагами. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "move_friendly3_through action1"
+      }
+    ]
+  },
+  {
+    "hero": "raptors",
+    "card": "decoy",
+    "description": "Сразу: выберите другого своего живого раптора. Можете поместить его на свободную клетку рядом с противником в этом бою.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "decoy"
+      }
+    ]
+  },
+  {
+    "hero": "raptors",
+    "card": "they_remember",
+    "description": "После боя: получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "action1"
+      }
+    ]
+  },
+  {
+    "hero": "raptors",
+    "card": "eviscerate",
+    "description": "Нет эффектов.",
+    "contracts": [
+      {
+        "stage": "none",
+        "oracle": "printed"
+      }
+    ]
+  },
+  {
+    "hero": "raptors",
+    "card": "ambush",
+    "description": "В бою: соперник сбрасывает 1 случайную карту. Прибавьте её усиление к силе этой атаки.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "raptors",
+    "card": "feint",
+    "description": "Сразу: отмените все эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "muhammad_ali",
+    "card": "jab",
+    "description": "После боя: возьмите 1 карту. Получите 1 действие. В стойке бабочки: передвиньте своего бойца на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw1 action1 move_self2"
+      }
+    ]
+  },
+  {
+    "hero": "muhammad_ali",
+    "card": "answer_the_bell",
+    "description": "Передвиньте Али на 0–3 клетки. Али восстанавливает 2 здоровья. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "move_hero3 heal2 action1"
+      }
+    ]
+  },
+  {
+    "hero": "muhammad_ali",
+    "card": "stick_and_move",
+    "description": "В бою, в стойке бабочки: сила карты соперника становится равной напечатанной и больше не может измениться. После боя: нанесите 1 урон соседнему бойцу.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "lock_printed"
+      },
+      {
+        "stage": "after",
+        "oracle": "damage1"
+      }
+    ]
+  },
+  {
+    "hero": "muhammad_ali",
+    "card": "ali_shuffle",
+    "description": "В бою, в стойке бабочки: можете усилить эту карту. После боя: при победе замешайте в свою колоду 1 карту из своего сброса, кроме уловки.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 own_hand_minus1"
+      },
+      {
+        "stage": "after",
+        "oracle": "shuffle_discard"
+      }
+    ]
+  },
+  {
+    "hero": "muhammad_ali",
+    "card": "close_and_clinch",
+    "description": "Сразу: поместите Али на клетку рядом с противником в этом бою. Ни один участник боя не может покидать свою клетку до конца хода.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "clinch"
+      }
+    ]
+  },
+  {
+    "hero": "muhammad_ali",
+    "card": "momentous_shift",
+    "description": "В бою: сила 5, если ваш боец начал этот ход на другой клетке.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      }
+    ]
+  },
+  {
+    "hero": "muhammad_ali",
+    "card": "fancy_footwork",
+    "description": "Сразу: передвиньте Али на 0–1 клетку. В бою: если у Али нет общих зон с противником в этом бою, игнорируйте силу карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "move_hero1"
+      },
+      {
+        "stage": "during",
+        "oracle": "ignore"
+      }
+    ]
+  },
+  {
+    "hero": "muhammad_ali",
+    "card": "hard_to_be_humble",
+    "description": "В бою, в стойке бабочки: посмотрите руку соперника. После боя: передвиньте Али на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "peek"
+      },
+      {
+        "stage": "after",
+        "oracle": "move_hero2"
+      }
+    ]
+  },
+  {
+    "hero": "muhammad_ali",
+    "card": "louisville_lip",
+    "description": "Али восстанавливает 1 здоровье. Возьмите 2 карты. Если вы победили в бою в этом ходу, каждый соперник сбрасывает 1 случайную карту.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "heal1 draw2 enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "muhammad_ali",
+    "card": "rope_a_dope",
+    "description": "После боя, в стойке бабочки: если вы проиграли бой, Али восстанавливает 3 здоровья.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "heal3"
+      }
+    ]
+  },
+  {
+    "hero": "muhammad_ali",
+    "card": "champion_of_the_world",
+    "description": "После боя: передвиньте любого участника боя на 0–2 клетки. В стойке бабочки: возьмите 1 карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either2 draw1"
+      }
+    ]
+  },
+  {
+    "hero": "muhammad_ali",
+    "card": "stronger_than_the_skill",
+    "description": "После боя: посмотрите руку соперника. При победе замешайте 1 карту из его руки в его колоду.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "steal_shuffle peek"
+      }
+    ]
+  },
+  {
+    "hero": "muhammad_ali",
+    "card": "the_greatest",
+    "description": "После боя: если в этом ходу вы нанесли не менее 6 боевого урона, получите 2 действия.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "action2"
+      }
+    ]
+  },
+  {
+    "hero": "dracula",
+    "card": "feint",
+    "description": "Сразу: отмените все эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "dracula",
+    "card": "dash",
+    "description": "После боя: передвиньте своего бойца на 0–3 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_self3"
+      }
+    ]
+  },
+  {
+    "hero": "dracula",
+    "card": "exploit",
+    "description": "После боя: возьмите 1 карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw1"
+      }
+    ]
+  },
+  {
+    "hero": "dracula",
+    "card": "ambush",
+    "description": "В бою: соперник сбрасывает 1 случайную карту. Прибавьте её усиление к силе этой атаки.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "dracula",
+    "card": "feeding_frenzy",
+    "description": "В бою: сила этой карты +1 за каждую Сестру в одной зоне с противником в этом бою.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus3"
+      }
+    ]
+  },
+  {
+    "hero": "dracula",
+    "card": "beastform",
+    "description": "В бою: можете сбросить любое число карт из руки. Сила этой карты +1 за каждую сброшенную карту.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "beast"
+      }
+    ]
+  },
+  {
+    "hero": "dracula",
+    "card": "do_my_bidding",
+    "description": "Сразу: верните карту атаки соперника ему в руку. Посмотрите его руку и выберите карту атаки или универсальную карту, которую он сыграет вместо неё. Можно выбрать ту же карту.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "bidding"
+      }
+    ]
+  },
+  {
+    "hero": "dracula",
+    "card": "look_into_my_eyes",
+    "description": "В бою: прибавьте усиление карты атаки соперника к силе этой защиты.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2"
+      }
+    ]
+  },
+  {
+    "hero": "dracula",
+    "card": "mistform",
+    "description": "Поместите Дракулу на любую свободную клетку. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "place_hero_any action1"
+      }
+    ]
+  },
+  {
+    "hero": "dracula",
+    "card": "prey_upon",
+    "description": "Нанесите по 1 урону всем вражеским бойцам рядом с Дракулой. Дракула восстанавливает 1 здоровье за каждый нанесённый урон.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "prey"
+      }
+    ]
+  },
+  {
+    "hero": "dracula",
+    "card": "baptism_of_blood",
+    "description": "Восстановите 2 здоровья. Верните 1 побеждённую Сестру, если такая есть, на свободную клетку в зоне Дракулы.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "heal2 revive"
+      }
+    ]
+  },
+  {
+    "hero": "dracula",
+    "card": "thirst_for_sustenance",
+    "description": "После боя: при победе поместите Дракулу на любую свободную клетку рядом с противником в этом бою.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "place_hero_enemy_adjacent"
+      }
+    ]
+  },
+  {
+    "hero": "dracula",
+    "card": "ravening_seduction",
+    "description": "Передвиньте любого бойца на 0–2 клетки. Затем нанесите этому бойцу по 1 урону за каждую Сестру рядом с ним.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "seduction"
+      }
+    ]
+  },
+  {
+    "hero": "sherlock_holmes",
+    "card": "feint",
+    "description": "Сразу: отмените все эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "sherlock_holmes",
+    "card": "education_never_ends",
+    "description": "После боя: при победе соперник берёт 1 карту. При поражении вы берёте 2 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "enemy_draw1"
+      }
+    ]
+  },
+  {
+    "hero": "sherlock_holmes",
+    "card": "study_methods",
+    "description": "После боя: при победе посмотрите руку соперника.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "peek"
+      }
+    ]
+  },
+  {
+    "hero": "sherlock_holmes",
+    "card": "deduce_strategy",
+    "description": "В бою: можете заменить напечатанную силу карты соперника её усилением. Если усиление не напечатано, оно считается равным 0.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "deduce"
+      }
+    ]
+  },
+  {
+    "hero": "sherlock_holmes",
+    "card": "counterpunch",
+    "description": "После боя: если Холмс находится рядом с противником в этом бою, нанесите ему 2 урона.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage2"
+      }
+    ]
+  },
+  {
+    "hero": "sherlock_holmes",
+    "card": "fixed_point_in_a_changing_age",
+    "description": "После боя: если доктор Ватсон находится рядом с Холмсом, каждый из них восстанавливает 1 здоровье.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "heal1 heal_self1"
+      }
+    ]
+  },
+  {
+    "hero": "sherlock_holmes",
+    "card": "the_game_is_afoot",
+    "description": "После боя: передвиньте Холмса на 0–3 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_hero3"
+      }
+    ]
+  },
+  {
+    "hero": "sherlock_holmes",
+    "card": "service_revolver",
+    "description": "Нет эффектов.",
+    "contracts": [
+      {
+        "stage": "none",
+        "oracle": "printed"
+      }
+    ]
+  },
+  {
+    "hero": "sherlock_holmes",
+    "card": "elementary",
+    "description": "Сыграйте эту карту лицевой стороной вверх. Назовите напечатанную силу карты атаки соперника. В бою: если вы угадали, отмените все эффекты его карты и игнорируйте силу его атаки.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "elementary"
+      }
+    ]
+  },
+  {
+    "hero": "sherlock_holmes",
+    "card": "confirm_suspicion",
+    "description": "Выберите соперника и назовите силу. Он выбирает и сбрасывает 1 карту с такой напечатанной силой атаки или защиты. Его герой получает урон, равный усилению сброшенной карты. Если подходящей карты нет, соперник показывает руку.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "confirm"
+      }
+    ]
+  },
+  {
+    "hero": "sherlock_holmes",
+    "card": "eliminate_the_impossible",
+    "description": "Выберите соперника. Посмотрите его руку и выберите 1 карту, которую он сбросит.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "enemy_discard1 peek"
+      }
+    ]
+  },
+  {
+    "hero": "sherlock_holmes",
+    "card": "master_of_disguise",
+    "description": "Выберите соперника. Поменяйте Холмса местами с его героем. Нанесите этому герою 1 урон.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "swap damage1"
+      }
+    ]
+  },
+  {
+    "hero": "sherlock_holmes",
+    "card": "administer_aid",
+    "description": "Поместите доктора Ватсона на свободную клетку рядом с Холмсом. Холмс восстанавливает 1 здоровье. Возьмите 1 карту.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "administer heal1 draw1"
+      }
+    ]
+  },
+  {
+    "hero": "jekyll_hyde",
+    "card": "feint",
+    "description": "Сразу: отмените все эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "jekyll_hyde",
+    "card": "skirmish",
+    "description": "После боя: при победе выберите любого участника боя и передвиньте его на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either2"
+      }
+    ]
+  },
+  {
+    "hero": "jekyll_hyde",
+    "card": "duality_of_man",
+    "description": "В бою: при защите доктора Джекила сила этой карты 6. При атаке мистера Хайда сила этой карты 6.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value6"
+      }
+    ]
+  },
+  {
+    "hero": "jekyll_hyde",
+    "card": "distracted_triage",
+    "description": "После боя: при победе восстановите 2 здоровья.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "heal2"
+      }
+    ]
+  },
+  {
+    "hero": "jekyll_hyde",
+    "card": "succumb_to_compulsion",
+    "description": "После боя: передвиньте своего бойца на 0–2 клетки. Превратитесь в мистера Хайда.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_self2 form_hyde"
+      }
+    ]
+  },
+  {
+    "hero": "jekyll_hyde",
+    "card": "madness_relents",
+    "description": "После боя: превратитесь в доктора Джекила.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "form_jekyll"
+      }
+    ]
+  },
+  {
+    "hero": "jekyll_hyde",
+    "card": "recoiling_blow",
+    "description": "После боя: поместите мистера Хайда на свободную клетку в его зоне. Превратитесь в доктора Джекила.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "place_self_zone form_jekyll"
+      }
+    ]
+  },
+  {
+    "hero": "jekyll_hyde",
+    "card": "forever_hyde",
+    "description": "В бою: можете сбрасывать карты доктора Джекила. Сила этой карты +2 за каждую такую сброшенную карту.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "forever"
+      }
+    ]
+  },
+  {
+    "hero": "jekyll_hyde",
+    "card": "with_haste",
+    "description": "После боя: передвиньте доктора Джекила на 0–4 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_self4"
+      }
+    ]
+  },
+  {
+    "hero": "jekyll_hyde",
+    "card": "scientific_method",
+    "description": "После боя: возьмите столько карт, сколько урона вы получили в этом бою.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw3"
+      }
+    ]
+  },
+  {
+    "hero": "jekyll_hyde",
+    "card": "calming_research",
+    "description": "Восстановите 2 здоровья. Возьмите до 3 карт. Оставьте 1 из них, а остальные положите под низ своей колоды в любом порядке.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "calming heal2"
+      }
+    ]
+  },
+  {
+    "hero": "jekyll_hyde",
+    "card": "pure_evil",
+    "description": "Поместите мистера Хайда на свободную клетку в его зоне. Мистер Хайд наносит по 2 урона всем соседним бойцам.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "place_hero_zone adjacent_all2"
+      }
+    ]
+  },
+  {
+    "hero": "jekyll_hyde",
+    "card": "strange_case",
+    "description": "Покажите верхнюю карту своей колоды. Нанесите одному соседнему бойцу урон, равный её усилению. Возьмите показанную карту в руку.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "strange"
+      }
+    ]
+  },
+  {
+    "hero": "invisible_man",
+    "card": "covert_preparation",
+    "description": "После боя: возьмите 1 карту. Передвиньте 1 жетон тумана на 0–2 клетки, затем соперник передвигает другой жетон тумана на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "covert draw1"
+      }
+    ]
+  },
+  {
+    "hero": "invisible_man",
+    "card": "dreaming_of_revenge",
+    "description": "После боя: если Невидимка стоит на жетоне тумана, все вражеские бойцы на жетонах тумана получают по 1 урону.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "fog_damage1"
+      }
+    ]
+  },
+  {
+    "hero": "invisible_man",
+    "card": "confound",
+    "description": "После боя: соперник может сбросить 1 карту. Если он этого не делает, можете переместить каждый жетон тумана на любую другую клетку.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "confound"
+      }
+    ]
+  },
+  {
+    "hero": "invisible_man",
+    "card": "impossible_to_see",
+    "description": "Сразу: сила атаки или защиты соперника становится равной 0 и не может изменяться эффектами карт. Другие эффекты карт выполняются.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "lock_zero"
+      }
+    ]
+  },
+  {
+    "hero": "invisible_man",
+    "card": "surprise_attack",
+    "description": "Сразу: отмените все эффекты карты соперника. После боя: если Невидимка стоит на жетоне тумана, переместите этот жетон на другую клетку.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      },
+      {
+        "stage": "after",
+        "oracle": "fog_relocate"
+      }
+    ]
+  },
+  {
+    "hero": "invisible_man",
+    "card": "slip_away",
+    "description": "После боя: переместите 1 жетон тумана на клетку без бойца, затем поместите Невидимку на эту клетку.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "slip"
+      }
+    ]
+  },
+  {
+    "hero": "invisible_man",
+    "card": "emerge_from_mist",
+    "description": "В бою: если Невидимка начал ход на клетке с жетоном тумана, сила этой карты 5.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      }
+    ]
+  },
+  {
+    "hero": "invisible_man",
+    "card": "lurking",
+    "description": "После боя: возьмите 1 карту и выберите 1 эффект: передвинуть Невидимку на клетку с жетоном тумана; либо передвинуть 1 жетон тумана на 0–3 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "lurking draw1"
+      }
+    ]
+  },
+  {
+    "hero": "invisible_man",
+    "card": "into_thin_air",
+    "description": "После боя: передвиньте Невидимку на 0–1 клетку. Затем соперник передвигает 1 жетон тумана на 0–3 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_hero1 opponent_fog3"
+      }
+    ]
+  },
+  {
+    "hero": "invisible_man",
+    "card": "coded_notes",
+    "description": "После боя: возьмите 3 карты, затем выберите 2 карты из руки и положите их на верх своей колоды в любом порядке.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "coded"
+      }
+    ]
+  },
+  {
+    "hero": "invisible_man",
+    "card": "reign_of_terror",
+    "description": "Если Невидимка стоит на жетоне тумана, нанесите 2 урона одному любому вражескому бойцу.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "damage2"
+      }
+    ]
+  },
+  {
+    "hero": "invisible_man",
+    "card": "vanish",
+    "description": "Восстановите 1 здоровье. Уберите Невидимку с поля. В начале своего следующего хода поместите его на любую свободную клетку. Если это было ваше первое действие, завершите ход.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "vanish heal1"
+      }
+    ]
+  },
+  {
+    "hero": "invisible_man",
+    "card": "step_lightly",
+    "description": "Нанесите 1 урон одному соседнему бойцу; если Невидимка стоит на жетоне тумана — 3 урона вместо 1. Затем соперник передвигает 1 жетон тумана на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "damage3 opponent_fog2"
+      }
+    ]
+  },
+  {
+    "hero": "invisible_man",
+    "card": "rolling_fog",
+    "description": "Переместите 1 жетон тумана на другую клетку. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "fog_relocate action1"
+      }
+    ]
+  },
+  {
+    "hero": "buffy",
+    "card": "skirmish",
+    "description": "После боя: при победе выберите любого участника боя и передвиньте его на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either2"
+      }
+    ]
+  },
+  {
+    "hero": "buffy",
+    "card": "insight",
+    "description": "Выберите соперника и посмотрите его руку. Выберите 1 карту, которую он сбросит.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "enemy_discard1 peek"
+      }
+    ]
+  },
+  {
+    "hero": "buffy",
+    "card": "training",
+    "description": "Возьмите 3 карты.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "draw3"
+      }
+    ]
+  },
+  {
+    "hero": "buffy",
+    "card": "right_hand_man",
+    "description": "В бою: если Ксандер находится рядом с Баффи, сила этой карты становится равной 6.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value6"
+      }
+    ]
+  },
+  {
+    "hero": "buffy",
+    "card": "military_knowledge",
+    "description": "После боя: возьмите 1 карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw1"
+      }
+    ]
+  },
+  {
+    "hero": "buffy",
+    "card": "daring_strike",
+    "description": "После боя: при победе возьмите 2 карты. Иначе ваш боец получает 1 урон.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "buffy",
+    "card": "cartwheel_kick",
+    "description": "После боя: можете передвинуть Баффи на 0–3 клетки. Затем нанесите по 1 урону всем вражеским бойцам рядом с ней.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_hero3 adjacent_enemies1"
+      }
+    ]
+  },
+  {
+    "hero": "buffy",
+    "card": "rapid_recovery",
+    "description": "После боя: Баффи восстанавливает 1 здоровье.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "heal1"
+      }
+    ]
+  },
+  {
+    "hero": "buffy",
+    "card": "regroup",
+    "description": "После боя: возьмите 1 карту. При победе вместо этого возьмите 2 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "buffy",
+    "card": "mr_pointy",
+    "description": "Нет эффектов.",
+    "contracts": [
+      {
+        "stage": "none",
+        "oracle": "printed"
+      }
+    ]
+  },
+  {
+    "hero": "buffy",
+    "card": "slayer_s_strength",
+    "description": "После боя: можете поместить всех бойцов рядом с Баффи на другие клетки в их зонах. Затем нанесите по 1 урону каждому передвинутому бойцу.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "slayer"
+      }
+    ]
+  },
+  {
+    "hero": "buffy",
+    "card": "feint",
+    "description": "Сразу: отмените все эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "buffy",
+    "card": "swift_strike",
+    "description": "После боя: передвиньте своего бойца на 0–4 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_self4"
+      }
+    ]
+  },
+  {
+    "hero": "angel",
+    "card": "feint",
+    "description": "Сразу: отмените все эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "angel",
+    "card": "wisdom_of_ages",
+    "description": "После боя: возьмите 1 карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw1"
+      }
+    ]
+  },
+  {
+    "hero": "angel",
+    "card": "five_by_five",
+    "description": "После боя: передвиньте Фэйт на 0–5 клеток. Она может проходить через вражеских бойцов.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_self5_through"
+      }
+    ]
+  },
+  {
+    "hero": "angel",
+    "card": "killer_of_the_dead",
+    "description": "Нанесите 2 урона одному вражескому бойцу рядом с Фэйт.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "damage2"
+      }
+    ]
+  },
+  {
+    "hero": "angel",
+    "card": "cursed_with_a_soul",
+    "description": "После боя: при поражении восстановите 1 здоровье.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "heal1"
+      }
+    ]
+  },
+  {
+    "hero": "angel",
+    "card": "haunted_by_the_faces",
+    "description": "После боя: при поражении можете поместить Ангела на любую свободную клетку в его зоне.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "place_hero_zone"
+      }
+    ]
+  },
+  {
+    "hero": "angel",
+    "card": "brooding",
+    "description": "После боя: при поражении противник в этом бою получает 1 урон.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage1"
+      }
+    ]
+  },
+  {
+    "hero": "angel",
+    "card": "regroup",
+    "description": "После боя: возьмите 1 карту. При победе вместо этого возьмите 2 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "angel",
+    "card": "momentous_shift",
+    "description": "В бою: сила 5, если ваш боец начал этот ход на другой клетке.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      }
+    ]
+  },
+  {
+    "hero": "angel",
+    "card": "angelus_scourge_of_europe",
+    "description": "Нет эффектов.",
+    "contracts": [
+      {
+        "stage": "none",
+        "oracle": "printed"
+      }
+    ]
+  },
+  {
+    "hero": "angel",
+    "card": "disengage",
+    "description": "После боя: поместите своего бойца на свободную клетку в его зоне.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "place_self_zone"
+      }
+    ]
+  },
+  {
+    "hero": "angel",
+    "card": "the_rogue_slayer",
+    "description": "После боя: нанесите по 1 урону всем вражеским бойцам рядом с Фэйт.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "adjacent_enemies1"
+      }
+    ]
+  },
+  {
+    "hero": "spike",
+    "card": "leap_away",
+    "description": "После боя: при победе выберите любого участника боя и передвиньте его на 0–4 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either4"
+      }
+    ]
+  },
+  {
+    "hero": "spike",
+    "card": "seek_the_shadows",
+    "description": "Возьмите 2 карты. Поместите жетон тени на клетку Спайка и на каждую соседнюю клетку.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "seek draw2"
+      }
+    ]
+  },
+  {
+    "hero": "spike",
+    "card": "the_rush",
+    "description": "В бою: если Спайк или противник в этом бою стоит на клетке с жетоном тени, сила этой карты становится равной 5.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      }
+    ]
+  },
+  {
+    "hero": "spike",
+    "card": "empathy",
+    "description": "После боя: возьмите 1 карту. Если противник в этом бою стоит на клетке с жетоном тени, вместо этого возьмите 3 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw3"
+      }
+    ]
+  },
+  {
+    "hero": "spike",
+    "card": "the_sight",
+    "description": "Выберите соперника и посмотрите его руку. Выберите 1 карту, которую он сбросит. Если хотя бы один его боец стоит на клетке с жетоном тени, вместо этого выберите 2 карты.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "enemy_discard2 peek"
+      }
+    ]
+  },
+  {
+    "hero": "spike",
+    "card": "always_surprising",
+    "description": "В бою: усильте эту карту вслепую. Если на клетке Друзиллы есть жетон тени, удвойте значение усиления.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus4 own_deck1 own_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "spike",
+    "card": "arrogance",
+    "description": "В бою: можете сбросить всю свою руку, даже если она пуста. Если сделали это, сила этой карты становится равной 6.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "arrogance"
+      }
+    ]
+  },
+  {
+    "hero": "spike",
+    "card": "feint",
+    "description": "Сразу: отмените все эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "spike",
+    "card": "skirmish",
+    "description": "После боя: при победе выберите любого участника боя и передвиньте его на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either2"
+      }
+    ]
+  },
+  {
+    "hero": "spike",
+    "card": "regroup",
+    "description": "После боя: возьмите 1 карту. При победе вместо этого возьмите 2 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "spike",
+    "card": "bloody_hell",
+    "description": "После боя: нанесите противнику в этом бою 1 урон и ещё по 1 урону за каждую соседнюю с ним клетку с жетоном тени.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage4"
+      }
+    ]
+  },
+  {
+    "hero": "spike",
+    "card": "let_s_dance",
+    "description": "В бою: если Спайк или противник в этом бою стоит на клетке с жетоном тени, можете усилить эту карту.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 own_hand_minus1"
+      }
+    ]
+  },
+  {
+    "hero": "willow",
+    "card": "rending_shot",
+    "description": "После боя: передвиньте противника в этом бою на 0–3 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_enemy3"
+      }
+    ]
+  },
+  {
+    "hero": "willow",
+    "card": "meditation",
+    "description": "После боя, только Тёмная Уиллоу: превратитесь в Уиллоу.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "form_willow"
+      }
+    ]
+  },
+  {
+    "hero": "willow",
+    "card": "black_magic",
+    "description": "В бою, только Тёмная Уиллоу: усильте эту карту вслепую.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 own_deck1 own_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "willow",
+    "card": "love_and_loss",
+    "description": "Возьмите 2 карты. Только Тёмная Уиллоу: сбросьте 2 верхние карты своей колоды. Нанесите 3 урона одному помощнику в зоне Уиллоу, даже своему.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "love draw2"
+      }
+    ]
+  },
+  {
+    "hero": "willow",
+    "card": "flayed_alive",
+    "description": "В бою, только Тёмная Уиллоу: усильте эту атаку вслепую.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 own_deck1 own_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "willow",
+    "card": "hacker",
+    "description": "После боя: посмотрите верхнюю карту своей колоды. Положите её на верх или под низ своей колоды.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "hacker"
+      }
+    ]
+  },
+  {
+    "hero": "willow",
+    "card": "when_good_magic_fails",
+    "description": "После боя, только Тёмная Уиллоу: поместите Уиллоу на любую свободную клетку в её зоне. Сбросьте верхнюю карту своей колоды.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "place_hero_zone own_deck1 own_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "willow",
+    "card": "knowledge_of_the_craft",
+    "description": "После боя: при победе выберите 1 карту из своего сброса и верните её в руку.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "retrieve_any"
+      }
+    ]
+  },
+  {
+    "hero": "willow",
+    "card": "resurrect",
+    "description": "Выберите побеждённого дружественного бойца. Поместите его на свободную клетку в зоне Уиллоу и установите его здоровье равным 3.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "resurrect"
+      }
+    ]
+  },
+  {
+    "hero": "willow",
+    "card": "revoke",
+    "description": "Сразу: отмените все эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "willow",
+    "card": "swift_strike",
+    "description": "После боя: передвиньте своего бойца на 0–4 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_self4"
+      }
+    ]
+  },
+  {
+    "hero": "willow",
+    "card": "feint",
+    "description": "Сразу: отмените все эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "willow",
+    "card": "regroup",
+    "description": "После боя: возьмите 1 карту. При победе вместо этого возьмите 2 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "little_red",
+    "card": "what_large_hands_you_have",
+    "description": "После боя: можете вернуть эту карту в руку. Цветок: вместо этого можете вернуть верхнюю карту своего сброса.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "red_return"
+      }
+    ]
+  },
+  {
+    "hero": "little_red",
+    "card": "the_wolf_s_skin",
+    "description": "После боя, шкура: возьмите 2 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "little_red",
+    "card": "what_a_terrible_big_mouth_you_have",
+    "description": "После боя, шкура: нанесите противнику в бою урон, равный напечатанной силе его карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage4"
+      }
+    ]
+  },
+  {
+    "hero": "little_red",
+    "card": "what_big_ears_you_have",
+    "description": "Нож: можете играть эту карту как защиту.",
+    "contracts": [
+      {
+        "stage": "none",
+        "oracle": "ears"
+      }
+    ]
+  },
+  {
+    "hero": "little_red",
+    "card": "what_big_eyes_you_have",
+    "description": "Сразу: отмените эффекты карты соперника. Цветок: также игнорируйте силу его карты.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel ignore"
+      }
+    ]
+  },
+  {
+    "hero": "little_red",
+    "card": "what_s_that_in_my_basket",
+    "description": "Нет эффектов. Звезда в корзине считается любым одним символом.",
+    "contracts": [
+      {
+        "stage": "none",
+        "oracle": "printed"
+      }
+    ]
+  },
+  {
+    "hero": "little_red",
+    "card": "never_leave_the_path",
+    "description": "Шкура: поместите Красную Шапочку на любую свободную клетку и получите 1 действие. Нож: нанесите по 2 урона всем вражеским бойцам в её зоне. Цветок: возьмите 3 карты. Звезда: выберите один из этих эффектов.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "red_path"
+      }
+    ]
+  },
+  {
+    "hero": "little_red",
+    "card": "into_the_woods",
+    "description": "Передвиньте Красную Шапочку на 0–3 клетки. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "move_hero3 action1"
+      }
+    ]
+  },
+  {
+    "hero": "little_red",
+    "card": "long_have_i_sought_you",
+    "description": "В бою: если Охотник рядом с противником, сила этой карты становится 6.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value6"
+      }
+    ]
+  },
+  {
+    "hero": "little_red",
+    "card": "a_grimm_tale",
+    "description": "Красная Шапочка восстанавливает 2 здоровья. Шкура: вместо этого восстанавливает 4.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "heal4"
+      }
+    ]
+  },
+  {
+    "hero": "little_red",
+    "card": "stones_in_the_belly",
+    "description": "В бою, нож: соперник сбрасывает случайную карту; добавьте её BOOST к силе этой карты.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "little_red",
+    "card": "once_upon_a_time",
+    "description": "После боя, нож: нанесите 3 урона противнику в бою.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage3"
+      }
+    ]
+  },
+  {
+    "hero": "beowulf",
+    "card": "remnant_of_valor",
+    "description": "Виглаф наносит по 1 урону каждому соседнему бойцу, включая своих. Если так получил урон Беовульф, получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "valor"
+      }
+    ]
+  },
+  {
+    "hero": "beowulf",
+    "card": "feint",
+    "description": "Сразу: отмените все эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "beowulf",
+    "card": "epic_poem",
+    "description": "Сразу: получите 1 ярость. В бою: сила +1 за каждую имеющуюся ярость; ярость не расходуется.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "rage3"
+      },
+      {
+        "stage": "during",
+        "oracle": "plus3"
+      }
+    ]
+  },
+  {
+    "hero": "beowulf",
+    "card": "the_ancient_heirloom",
+    "description": "Эффекты нельзя отменить. В бою: можете потратить 2 ярости, чтобы сила стала 5, и/или 1 ярость, чтобы усилить карту.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value7 rage0"
+      }
+    ]
+  },
+  {
+    "hero": "beowulf",
+    "card": "no_contest_expecteth",
+    "description": "После боя: если атаковали помощника и победили, можете потратить 3 ярости, чтобы победить этого помощника.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "execute"
+      }
+    ]
+  },
+  {
+    "hero": "beowulf",
+    "card": "the_war_king",
+    "description": "В бою: можете потратить любое количество ярости. Сила +2 за каждую потраченную ярость.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus6 rage0"
+      }
+    ]
+  },
+  {
+    "hero": "beowulf",
+    "card": "the_equal_of_grendel",
+    "description": "Сразу: можете потратить 2 ярости и нанести противнику в бою урон, равный напечатанной силе его карты.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "damage4 rage1"
+      }
+    ]
+  },
+  {
+    "hero": "beowulf",
+    "card": "vigor_and_courage",
+    "description": "Выберите соперника: он сбрасывает случайную карту. Получите ярость, равную её BOOST, до максимума 3.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "enemy_discard1 rage3"
+      }
+    ]
+  },
+  {
+    "hero": "beowulf",
+    "card": "golden_drinking_horn",
+    "description": "Можете потратить любое количество ярости. За каждую потраченную ярость выберите разный эффект: взять 2 карты; передвинуть Беовульфа на 0–4 клетки; восстановить ему 2 здоровья.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "draw2 move_hero4 heal2 rage0"
+      }
+    ]
+  },
+  {
+    "hero": "beowulf",
+    "card": "hot_for__the_battle",
+    "description": "После боя: можете поменять Виглафа и Беовульфа местами.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "swap_friendly"
+      }
+    ]
+  },
+  {
+    "hero": "beowulf",
+    "card": "fatal_struggle",
+    "description": "После боя: победитель боя берёт 2 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "beowulf",
+    "card": "skirmish",
+    "description": "После боя: при победе выберите любого участника боя и передвиньте его на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either2"
+      }
+    ]
+  },
+  {
+    "hero": "houdini",
+    "card": "vanishing_act",
+    "description": "После боя: передвиньте любого участника боя на 0–3 клетки. Он может проходить через вражеских бойцов.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either3_through"
+      }
+    ]
+  },
+  {
+    "hero": "houdini",
+    "card": "the_big_reveal",
+    "description": "В бою: можете усилить эту карту до двух раз. После боя: верните одну из использованных для усиления карт в руку.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus4 own_hand_minus2"
+      },
+      {
+        "stage": "after",
+        "oracle": "retrieve_boost"
+      }
+    ]
+  },
+  {
+    "hero": "houdini",
+    "card": "smoke_and_mirrors",
+    "description": "Сразу: можете поменять Гудини и Бесс местами. Тогда второй ваш боец становится участником боя.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "swap_defender"
+      }
+    ]
+  },
+  {
+    "hero": "houdini",
+    "card": "sleight_of_hand",
+    "description": "Сразу: можете вернуть эту карту в руку и сыграть другую подходящую карту атаки. Разрешите все её эффекты. При усилении этой картой: возьмите 1 карту.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "sleight"
+      }
+    ]
+  },
+  {
+    "hero": "houdini",
+    "card": "set_the_stage",
+    "description": "Возьмите 3 карты, затем положите одну карту из руки наверх колоды. При усилении этой картой: посмотрите руку выбранного соперника и выберите карту, которую он сбросит.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "topdeck draw3"
+      }
+    ]
+  },
+  {
+    "hero": "houdini",
+    "card": "misdirection",
+    "description": "Сразу: отмените эффекты карты соперника. При усилении этой картой: нанесите 2 урона любому бойцу.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "houdini",
+    "card": "grand_escape",
+    "description": "В бою: можете усилить эту карту. После боя: при победе поместите своего бойца на любую свободную клетку.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 own_hand_minus1"
+      },
+      {
+        "stage": "after",
+        "oracle": "place_self_any"
+      }
+    ]
+  },
+  {
+    "hero": "houdini",
+    "card": "flourish",
+    "description": "В бою: можете усилить эту карту. При усилении этой картой: возьмите 1 карту.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 own_hand_minus1"
+      }
+    ]
+  },
+  {
+    "hero": "houdini",
+    "card": "an_illusion_of_my_own_design",
+    "description": "Сразу: соперник может усилить свою карту. В бою: вы можете усилить эту карту.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "enemy_boost"
+      },
+      {
+        "stage": "during",
+        "oracle": "plus2 own_hand_minus1"
+      }
+    ]
+  },
+  {
+    "hero": "houdini",
+    "card": "all_part_of_the_show",
+    "description": "Эффекты нельзя отменить. После боя: если ваш боец повержен, установите его здоровье равным 4 и поместите на любую свободную клетку. Работает даже при поражении Гудини. При усилении этой картой: Гудини восстанавливает 2 здоровья.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "revive_self4"
+      }
+    ]
+  },
+  {
+    "hero": "houdini",
+    "card": "a_magician_never_reveals_his_secrets",
+    "description": "Возьмите 2 карты и получите 1 действие. Пока эта карта в руке: можете раскрыть её и отменить эффект, позволяющий сопернику посмотреть вашу руку.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "draw2 action1"
+      }
+    ]
+  },
+  {
+    "hero": "houdini",
+    "card": "for_my_next_trick",
+    "description": "После боя: передвиньте одного своего бойца на 0–1 клетку. Возьмите 1 карту и получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_one_friendly1 draw1 action1"
+      }
+    ]
+  },
+  {
+    "hero": "houdini",
+    "card": "and_the_beautiful_bess",
+    "description": "Если сброшена эффектом соперника: возьмите 1 карту. При усилении этой картой в свой ход: получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "none",
+        "oracle": "bess"
+      }
+    ]
+  },
+  {
+    "hero": "genie",
+    "card": "your_wish_is_my_command",
+    "description": "После боя: при победе можете сбросить 2 карты и получить 1 действие.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "pay_action"
+      }
+    ]
+  },
+  {
+    "hero": "genie",
+    "card": "wishing_for_more_wishes",
+    "description": "После боя: соперник берёт 1 карту, затем вы берёте 3 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "enemy_draw1 draw3"
+      }
+    ]
+  },
+  {
+    "hero": "genie",
+    "card": "three_wishes",
+    "description": "Получите 1 действие и выберите: взять 5 карт; до конца вашего хода сила всех ваших карт равна 4 и не меняется; каждый соперник сбрасывает 2 карты.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "draw5 action1"
+      }
+    ]
+  },
+  {
+    "hero": "genie",
+    "card": "this_is_no_parlor_trick",
+    "description": "В бою: сила карты соперника становится равной её напечатанному BOOST.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "parlor"
+      }
+    ]
+  },
+  {
+    "hero": "genie",
+    "card": "prisoners_torment",
+    "description": "После боя: возьмите столько карт, сколько получили урона в бою.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw3"
+      }
+    ]
+  },
+  {
+    "hero": "genie",
+    "card": "ive_made_sultans_out_of_less",
+    "description": "После боя: посмотрите руку соперника и выберите карту, которую он сбросит.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "enemy_discard1 peek"
+      }
+    ]
+  },
+  {
+    "hero": "genie",
+    "card": "imprisoned_wrath",
+    "description": "После боя: можете сбросить 2 карты и нанести 2 урона одному соседнему вражескому бойцу.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "pay_damage"
+      }
+    ]
+  },
+  {
+    "hero": "genie",
+    "card": "i_grant_you_death",
+    "description": "После боя: можете нанести 1 урон любому соседнему бойцу, включая своего.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage1"
+      }
+    ]
+  },
+  {
+    "hero": "genie",
+    "card": "i_am_freed",
+    "description": "После боя: поместите Джинна на любую свободную клетку, затем нанесите по 1 урону каждому соседнему бойцу, включая своих.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "place_hero_any adjacent_all1"
+      }
+    ]
+  },
+  {
+    "hero": "genie",
+    "card": "back_in_the_lamp",
+    "description": "Сразу: Джинн восстанавливает 4 здоровья.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "heal4"
+      }
+    ]
+  },
+  {
+    "hero": "genie",
+    "card": "careful_what_you_wish_for",
+    "description": "После боя: при поражении нанесите 1 урон одному соседнему вражескому бойцу.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage1"
+      }
+    ]
+  },
+  {
+    "hero": "genie",
+    "card": "feint",
+    "description": "Сразу: отмените эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "achilles",
+    "card": "battle_frenzy",
+    "description": "После боя: нанесите по 2 урона обоим участникам боя.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "frenzy"
+      }
+    ]
+  },
+  {
+    "hero": "achilles",
+    "card": "test_for_weakness",
+    "description": "После боя: проведите бонусную атаку «Неустанный натиск» силой 3 по тому же бойцу, даже вне дальности. Новая защита разрешена.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "bonus3"
+      }
+    ]
+  },
+  {
+    "hero": "achilles",
+    "card": "the_day_of_your_doom",
+    "description": "В бою: можете нанести Патроклу 2 урона. Если сделали это, сила атаки становится 5.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "doom value5"
+      }
+    ]
+  },
+  {
+    "hero": "achilles",
+    "card": "brothers_in_arms",
+    "description": "После боя: если Патрокл не повержен, получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "action1"
+      }
+    ]
+  },
+  {
+    "hero": "achilles",
+    "card": "feint",
+    "description": "Сразу: отмените все эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "achilles",
+    "card": "battle_hardened",
+    "description": "После боя: выберите карту своего сброса и верните в руку.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "retrieve_any"
+      }
+    ]
+  },
+  {
+    "hero": "achilles",
+    "card": "wily_fighting",
+    "description": "После боя: нанесите по 1 урону всем врагам рядом с вашим бойцом.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "adjacent_enemies1"
+      }
+    ]
+  },
+  {
+    "hero": "achilles",
+    "card": "blessed_by_hermes",
+    "description": "После боя: передвиньте каждого своего бойца на 0–3 клетки, можно проходить через врагов.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_friendly3_through"
+      }
+    ]
+  },
+  {
+    "hero": "achilles",
+    "card": "skirmish",
+    "description": "После боя: при победе передвиньте любого участника боя на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either2"
+      }
+    ]
+  },
+  {
+    "hero": "achilles",
+    "card": "under_achilles_helm",
+    "description": "Сразу: если Патрокл жив, можете поменять его с Ахиллесом местами. Патрокл становится защитником.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "swap_defender"
+      }
+    ]
+  },
+  {
+    "hero": "achilles",
+    "card": "achilles_heel",
+    "description": "После боя: при поражении ваш соперник получает 1 действие.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "enemy_action1"
+      }
+    ]
+  },
+  {
+    "hero": "achilles",
+    "card": "spear_throw",
+    "description": "Нанесите 2 урона одному вражескому бойцу в зоне Ахиллеса.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "damage2"
+      }
+    ]
+  },
+  {
+    "hero": "bloody_mary",
+    "card": "out_of_the_mirror",
+    "description": "В бою: соперник сбрасывает случайную карту; добавьте её BOOST к силе. После боя: если это ваше третье действие в ходу, возьмите 1 карту.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 enemy_discard1"
+      },
+      {
+        "stage": "after",
+        "oracle": "draw1"
+      }
+    ]
+  },
+  {
+    "hero": "bloody_mary",
+    "card": "ghostly_touch",
+    "description": "В бою: можете усилить атаку. После боя: если это третье действие, восстановите 3 здоровья.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 own_hand_minus1"
+      },
+      {
+        "stage": "after",
+        "oracle": "heal3"
+      }
+    ]
+  },
+  {
+    "hero": "bloody_mary",
+    "card": "speak_three_times",
+    "description": "В бою: если это третье действие в ходу, сила становится 7.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value7"
+      }
+    ]
+  },
+  {
+    "hero": "bloody_mary",
+    "card": "bloody_requiem",
+    "description": "После боя: бонусная атака «Кровавая реприза» силой 0. В её бою сила равна напечатанной силе защиты против «Кровавого реквиема», если защита была.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "bonus0"
+      }
+    ]
+  },
+  {
+    "hero": "bloody_mary",
+    "card": "feint",
+    "description": "Сразу: отмените все эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "bloody_mary",
+    "card": "trick_of_the_light",
+    "description": "После боя: можете поместить Кровавую Мэри на свободную клетку рядом с противником в бою.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "place_self_enemy_adjacent"
+      }
+    ]
+  },
+  {
+    "hero": "bloody_mary",
+    "card": "broken_glass",
+    "description": "В бою: можете изменить силу на −1 или +1 либо оставить её. После боя: если итоговые силы карт равны, возьмите 1 карту и нанесите 2 урона противнику в бою.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus1"
+      },
+      {
+        "stage": "after",
+        "oracle": "draw1 damage2"
+      }
+    ]
+  },
+  {
+    "hero": "bloody_mary",
+    "card": "jump_scare",
+    "description": "В бою: если Мэри не делит ни одной зоны с клеткой, где начала ход, сила становится 6.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value6"
+      }
+    ]
+  },
+  {
+    "hero": "bloody_mary",
+    "card": "stolen_memories",
+    "description": "Выберите соперника, посмотрите его руку и выберите карту. Он может сбросить её. Если откажется, его герой получает урон, равный её BOOST.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "memories"
+      }
+    ]
+  },
+  {
+    "hero": "bloody_mary",
+    "card": "infinity_mirror",
+    "description": "После боя: передвиньте любого участника боя на 0–4 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either4"
+      }
+    ]
+  },
+  {
+    "hero": "bloody_mary",
+    "card": "mirror_image",
+    "description": "В бою: сила этой карты равна напечатанной силе карты соперника.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value4"
+      }
+    ]
+  },
+  {
+    "hero": "bloody_mary",
+    "card": "evade",
+    "description": "После боя: возьмите 1 карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw1"
+      }
+    ]
+  },
+  {
+    "hero": "bloody_mary",
+    "card": "closer_than_she_appears",
+    "description": "Передвиньте Мэри на 0–1 клетку. Возьмите 1 карту и получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "move_hero1 draw1 action1"
+      }
+    ]
+  },
+  {
+    "hero": "sun_wukong",
+    "card": "infinite_strikes",
+    "description": "В бою: сила +1 за каждого другого вашего бойца рядом с противником. После боя: получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2"
+      },
+      {
+        "stage": "after",
+        "oracle": "action1"
+      }
+    ]
+  },
+  {
+    "hero": "sun_wukong",
+    "card": "ruyi_jingo_bang",
+    "description": "После боя: если соперник сыграл защиту, проведите бонусную атаку «Обманул!» силой 4 по тому же бойцу.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "bonus4"
+      }
+    ]
+  },
+  {
+    "hero": "sun_wukong",
+    "card": "taunting_laughter",
+    "description": "Сразу: соперник может сбросить карту. Если откажется, игнорируйте силу его карты.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "sun_wukong",
+    "card": "ox_form",
+    "description": "Эффекты нельзя отменить. В бою: если соперник сыграл карту, он может её усилить.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "enemy_boost"
+      }
+    ]
+  },
+  {
+    "hero": "sun_wukong",
+    "card": "72_transformations",
+    "description": "После боя: верните из сброса в руку «Облик быка», «Облик черепахи» или «Облик феникса».",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "retrieve_form"
+      }
+    ]
+  },
+  {
+    "hero": "sun_wukong",
+    "card": "sly_monkey",
+    "description": "После боя: если карту сыграл сам Сунь Укун, призовите клона на его клетку, затем поместите Сунь Укуна на другую свободную клетку в его зоне.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "clone_swap"
+      }
+    ]
+  },
+  {
+    "hero": "sun_wukong",
+    "card": "wily_fighting",
+    "description": "После боя: нанесите по 1 урону всем врагам рядом с вашим бойцом.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "adjacent_enemies1"
+      }
+    ]
+  },
+  {
+    "hero": "sun_wukong",
+    "card": "bewilderment",
+    "description": "В бою: предотвратите весь урон в этом бою, включая эффекты карт. После боя: можете поместить своего бойца на любую свободную клетку.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "prevent_all"
+      },
+      {
+        "stage": "after",
+        "oracle": "place_self_any"
+      }
+    ]
+  },
+  {
+    "hero": "sun_wukong",
+    "card": "golden_chain_mail",
+    "description": "В бою: боевой урон, который вы должны получить, вместо этого получает противник в бою.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "reflect"
+      }
+    ]
+  },
+  {
+    "hero": "sun_wukong",
+    "card": "tortoise_form",
+    "description": "В бою: соперник может усилить свою атаку.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "enemy_boost"
+      }
+    ]
+  },
+  {
+    "hero": "sun_wukong",
+    "card": "fiery_eyes_that_see",
+    "description": "Выберите соперника, посмотрите его руку и положите выбранную карту под низ его колоды. Затем каждый из вас берёт 1 карту.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "eyes"
+      }
+    ]
+  },
+  {
+    "hero": "sun_wukong",
+    "card": "phoenix_form",
+    "description": "Сунь Укун восстанавливает по 1 здоровью за каждого своего клона на поле.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "heal3"
+      }
+    ]
+  },
+  {
+    "hero": "yennenga",
+    "card": "surprise_volley",
+    "description": "Сразу: можете вернуть поверженного лучника на свободную клетку в зоне противника в бою; лучник становится атакующим. Если не вернули лучника, получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "surprise"
+      }
+    ]
+  },
+  {
+    "hero": "yennenga",
+    "card": "rain_of_arrows",
+    "description": "После боя: бонусная атака «Залп» силой 3 по тому же бойцу, даже вне дальности. Соперник может сыграть новую защиту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "bonus3"
+      }
+    ]
+  },
+  {
+    "hero": "yennenga",
+    "card": "pin_the_prey",
+    "description": "После боя: передвиньте противника в бою на 0–4 клетки. Затем соперник сбрасывает 1 карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_enemy4 enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "yennenga",
+    "card": "divide_and_conquer",
+    "description": "В бою: если ваш лучник не в зоне Йенненги, сила становится 4.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value4"
+      }
+    ]
+  },
+  {
+    "hero": "yennenga",
+    "card": "point_blank",
+    "description": "После боя: если противник рядом с Йенненгой, нанесите ему 2 урона.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage2"
+      }
+    ]
+  },
+  {
+    "hero": "yennenga",
+    "card": "momentous_shift",
+    "description": "В бою: если ваш боец начал ход на другой клетке, сила становится 5.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      }
+    ]
+  },
+  {
+    "hero": "yennenga",
+    "card": "jaws_of_the_beast",
+    "description": "В бою: сила +1 за каждую зону клетки противника в бою.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2"
+      }
+    ]
+  },
+  {
+    "hero": "yennenga",
+    "card": "skirmish",
+    "description": "После боя: при победе передвиньте любого участника боя на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either2"
+      }
+    ]
+  },
+  {
+    "hero": "yennenga",
+    "card": "stallion_charge",
+    "description": "После боя: передвиньте Йенненгу на 0–5 клеток сквозь врагов. Нанесите по 1 урону каждому врагу, через которого прошли. Маршрут выбирается по клеткам.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "charge"
+      }
+    ]
+  },
+  {
+    "hero": "yennenga",
+    "card": "shield_formation",
+    "description": "Сразу: соперник может сбросить карту. Если не сбросил, верните поверженного лучника на свободную клетку в зоне Йенненги.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "yennenga",
+    "card": "one_with_the_land",
+    "description": "Передвиньте каждого своего бойца на 0–2 клетки. Каждый ваш боец восстанавливает 1 здоровье. Возьмите 1 карту.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "move_friendly2 heal_all1 draw1"
+      }
+    ]
+  },
+  {
+    "hero": "yennenga",
+    "card": "master_of_the_hunt",
+    "description": "Получите 2 действия.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "action2"
+      }
+    ]
+  },
+  {
+    "hero": "nikola_tesla",
+    "card": "7_hertz",
+    "description": "После боя: можете разрядить катушки. 1: получите 1 действие. 2: также возьмите 1 карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "action1 draw1 coils0"
+      }
+    ]
+  },
+  {
+    "hero": "nikola_tesla",
+    "card": "the_alternating_current",
+    "description": "После боя выберите: зарядить обе катушки или разрядить обе и восстановить Тесле 2 здоровья.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "coils2"
+      }
+    ]
+  },
+  {
+    "hero": "nikola_tesla",
+    "card": "death_ray",
+    "description": "В бою: можете разрядить катушки. 1: сила 5. 2: вместо этого сила 7.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value7 coils0"
+      }
+    ]
+  },
+  {
+    "hero": "nikola_tesla",
+    "card": "fully_charged",
+    "description": "Зарядите обе катушки. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "coils2 action1"
+      }
+    ]
+  },
+  {
+    "hero": "nikola_tesla",
+    "card": "intense_experimentation",
+    "description": "После боя: возьмите 1 карту. Можете разрядить катушки: 1 — вместо этого возьмите 2 карты; 2 — вместо этого возьмите 3 карты и восстановите Тесле 1 здоровье.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw3 heal1 coils0"
+      }
+    ]
+  },
+  {
+    "hero": "nikola_tesla",
+    "card": "kinetic_induction",
+    "description": "После боя: зарядите 1 катушку. При победе зарядите обе.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "coils2"
+      }
+    ]
+  },
+  {
+    "hero": "nikola_tesla",
+    "card": "lightning_storm",
+    "description": "После боя: можете разрядить катушки. 1: по 1 урону всем врагам в зоне Теслы. 2: вместо этого по 2 урона.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "zone_damage2 coils0"
+      }
+    ]
+  },
+  {
+    "hero": "nikola_tesla",
+    "card": "polyphase_coils",
+    "description": "Сразу: можете разрядить катушки. 1: отмените эффекты карты соперника. 2: также игнорируйте её силу.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel ignore coils0"
+      }
+    ]
+  },
+  {
+    "hero": "nikola_tesla",
+    "card": "remote_control",
+    "description": "Передвиньте каждого вражеского бойца на 0–2 клетки. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "move_enemies2 action1"
+      }
+    ]
+  },
+  {
+    "hero": "nikola_tesla",
+    "card": "repulsion_blast",
+    "description": "После боя: передвиньте противника в бою на 0–2 клетки. Можете разрядить катушки: 1 — также передвиньте Теслу на 0–2 клетки; 2 — также соперник сбрасывает случайную карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_enemy2 move_hero2 enemy_discard1 coils0"
+      }
+    ]
+  },
+  {
+    "hero": "nikola_tesla",
+    "card": "x_ray_radiation",
+    "description": "В бою: раскройте верхнюю карту колоды соперника. Можете разрядить катушки: 1 — сбросьте раскрытую карту; 2 — также прибавьте её BOOST к силе этой карты.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "xray plus2 coils0"
+      }
+    ]
+  },
+  {
+    "hero": "dr_jill_trent",
+    "card": "hypnotist",
+    "description": "Сразу: если активен гипнолучевой бластер, отмените эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "dr_jill_trent",
+    "card": "battle_of_wits",
+    "description": "После боя: раскройте верхние карты своей колоды и колоды соперника. Если ваш BOOST больше, нанесите противнику в бою 3 урона. Раскрытые карты остаются наверху.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "wits"
+      }
+    ]
+  },
+  {
+    "hero": "dr_jill_trent",
+    "card": "utility_belt",
+    "description": "После боя выберите одно: восстановить Джилл 1 здоровье; передвинуть её на 0–1 клетку; взять 1 карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "heal1"
+      }
+    ]
+  },
+  {
+    "hero": "dr_jill_trent",
+    "card": "stasis_diffuser",
+    "description": "Сразу: сила карты соперника равна напечатанной и больше не меняется эффектами.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "lock_printed"
+      }
+    ]
+  },
+  {
+    "hero": "dr_jill_trent",
+    "card": "gyroscopic_jetpack",
+    "description": "После боя: передвиньте своего бойца на 0–2 клетки. Можно проходить сквозь врагов.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_self2_through"
+      }
+    ]
+  },
+  {
+    "hero": "dr_jill_trent",
+    "card": "indestructible_cloth",
+    "description": "Сразу: в этом бою ваш боец не получает урон от эффектов; боевой урон действует как обычно.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "effect_protection"
+      }
+    ]
+  },
+  {
+    "hero": "dr_jill_trent",
+    "card": "laser_pen",
+    "description": "После боя: нанесите противнику в бою 1 урон.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage1"
+      }
+    ]
+  },
+  {
+    "hero": "dr_jill_trent",
+    "card": "insightful_deduction",
+    "description": "После боя: раскройте 3 верхние карты колоды соперника. Одну положите вниз, остальные — наверх в выбранном порядке.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "inspect_bottom"
+      }
+    ]
+  },
+  {
+    "hero": "dr_jill_trent",
+    "card": "caught_red_handed",
+    "description": "После боя: соперник сбрасывает 1 карту; при вашей победе вместо этого 2 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "enemy_discard2"
+      }
+    ]
+  },
+  {
+    "hero": "dr_jill_trent",
+    "card": "energizing_spray",
+    "description": "После боя: получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "action1"
+      }
+    ]
+  },
+  {
+    "hero": "dr_jill_trent",
+    "card": "helpful_assistant",
+    "description": "Замешайте из сброса в свою колоду до 3 карт с именем Джилл Трент. Затем возьмите 1 карту.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "assistant draw1"
+      }
+    ]
+  },
+  {
+    "hero": "dr_jill_trent",
+    "card": "sisters_in_arms",
+    "description": "Эффекты нельзя отменить. Если Дейзи атакует и находится рядом с Джилл, Дейзи получает эффект её активного гаджета.",
+    "contracts": [
+      {
+        "stage": "none",
+        "oracle": "uncancellable"
+      }
+    ]
+  },
+  {
+    "hero": "dr_jill_trent",
+    "card": "ace_fighter",
+    "description": "После боя: возьмите 1 карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw1"
+      }
+    ]
+  },
+  {
+    "hero": "annie_christmas",
+    "card": "a_few_more_pearls",
+    "description": "Нанесите по 2 урона всем врагам рядом с Энни.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "adjacent_enemies2"
+      }
+    ]
+  },
+  {
+    "hero": "annie_christmas",
+    "card": "captains_orders",
+    "description": "Поместите Энни на свободную клетку в её зоне. Затем поместите другого дружественного бойца в зону Энни. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "place_hero_zone captain action1"
+      }
+    ]
+  },
+  {
+    "hero": "annie_christmas",
+    "card": "keep_your_hands_to_yourself",
+    "description": "После боя: передвиньте каждого участника боя на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_both2"
+      }
+    ]
+  },
+  {
+    "hero": "annie_christmas",
+    "card": "lagniappe",
+    "description": "Сразу: можете нанести Энни до 2 урона и взять столько же карт. Это может включить её способность.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "self_damage2 draw2"
+      }
+    ]
+  },
+  {
+    "hero": "annie_christmas",
+    "card": "mississippi_queen",
+    "description": "Сразу: до конца этого хода урон не может уменьшить здоровье Энни ниже 1.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "queen"
+      }
+    ]
+  },
+  {
+    "hero": "annie_christmas",
+    "card": "striking_beauty",
+    "description": "После боя: нанесите противнику в бою 1 урон; при победе вместо этого 2.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage2"
+      }
+    ]
+  },
+  {
+    "hero": "annie_christmas",
+    "card": "better_together",
+    "description": "После боя: если ваш боец рядом с дружественным, он и все дружественные бойцы рядом с ним восстанавливают по 1 здоровью.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "heal_all1"
+      }
+    ]
+  },
+  {
+    "hero": "annie_christmas",
+    "card": "long_shot",
+    "description": "В бою: если противник не рядом с вашим бойцом, сила становится 5.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      }
+    ]
+  },
+  {
+    "hero": "annie_christmas",
+    "card": "quite_a_pair",
+    "description": "Сразу: можете раскрыть две карты с одинаковым названием из руки. Если раскрыли, отмените эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "pair cancel"
+      }
+    ]
+  },
+  {
+    "hero": "annie_christmas",
+    "card": "slick_talker",
+    "description": "Сразу: можете поменять Энни и Чарли местами. Тогда другой ваш боец становится защитником.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "swap_defender"
+      }
+    ]
+  },
+  {
+    "hero": "annie_christmas",
+    "card": "bottom_dealing",
+    "description": "В бою: раскройте нижнюю карту своей колоды и прибавьте её BOOST к силе. Затем оставьте раскрытую карту внизу или положите наверх.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "bottom plus2"
+      }
+    ]
+  },
+  {
+    "hero": "annie_christmas",
+    "card": "the_turn_and_the_river",
+    "description": "После боя: возьмите 2 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "golden_bat",
+    "card": "a_punch_to_shake_the_earth",
+    "description": "После боя: нанесите по 1 урону всем врагам в зоне Золотого Бэта. При победе вместо этого по 2.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "zone_damage2"
+      }
+    ]
+  },
+  {
+    "hero": "golden_bat",
+    "card": "alpine_fortress",
+    "description": "Выберите карту своего сброса и замешайте в колоду. Возьмите 2 карты. Передвиньте Золотого Бэта на 0–4 клетки.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "shuffle_discard draw2 move_self4"
+      }
+    ]
+  },
+  {
+    "hero": "golden_bat",
+    "card": "arrive_just_in_time",
+    "description": "Поместите Золотого Бэта на любую свободную клетку.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "place_self_any"
+      }
+    ]
+  },
+  {
+    "hero": "golden_bat",
+    "card": "he_laughs_at_your_feebleness",
+    "description": "Нет эффектов.",
+    "contracts": [
+      {
+        "stage": "none",
+        "oracle": "printed"
+      }
+    ]
+  },
+  {
+    "hero": "golden_bat",
+    "card": "imposing_presence",
+    "description": "Сразу: отмените эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "golden_bat",
+    "card": "insight_of_the_ancients",
+    "description": "После боя: при победе верните случайную карту из своего сброса в руку.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "retrieve_random"
+      }
+    ]
+  },
+  {
+    "hero": "golden_bat",
+    "card": "like_a_flash_of_golden_light",
+    "description": "В бою: если Бэт не делит зон с клеткой начала хода, сила становится 4. После боя: передвиньте его на 0–5 клеток.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value4"
+      },
+      {
+        "stage": "after",
+        "oracle": "move_self5"
+      }
+    ]
+  },
+  {
+    "hero": "golden_bat",
+    "card": "sight_beyond_sight",
+    "description": "После боя: посмотрите 3 верхние карты колоды соперника и верните наверх в выбранном порядке.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "inspect_order"
+      }
+    ]
+  },
+  {
+    "hero": "golden_bat",
+    "card": "skirmish",
+    "description": "После боя: при победе передвиньте любого участника боя на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either2"
+      }
+    ]
+  },
+  {
+    "hero": "golden_bat",
+    "card": "super_strength",
+    "description": "Нет эффектов.",
+    "contracts": [
+      {
+        "stage": "none",
+        "oracle": "printed"
+      }
+    ]
+  },
+  {
+    "hero": "golden_bat",
+    "card": "terrifying_roar",
+    "description": "Сразу: до конца хода все бойцы не могут покидать свои клетки.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "roar"
+      }
+    ]
+  },
+  {
+    "hero": "golden_bat",
+    "card": "vaporizing_eyebeams",
+    "description": "После боя: соперник сбрасывает случайную карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "oda_nobunaga",
+    "card": "student_of_war",
+    "description": "После боя: возьмите столько карт, сколько боевого урона нанесли противнику.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw3"
+      }
+    ]
+  },
+  {
+    "hero": "oda_nobunaga",
+    "card": "fire_and_flames",
+    "description": "В бою: если противник окружён двумя вашими бойцами, сила 5.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      }
+    ]
+  },
+  {
+    "hero": "oda_nobunaga",
+    "card": "lightning_and_thunder",
+    "description": "Сразу: если противник окружён двумя вашими бойцами, отмените эффекты его карты. После боя: передвиньте своего бойца на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      },
+      {
+        "stage": "after",
+        "oracle": "move_self2"
+      }
+    ]
+  },
+  {
+    "hero": "oda_nobunaga",
+    "card": "sun_and_moon",
+    "description": "В бою: если противник окружён двумя вашими бойцами, игнорируйте силу его карты.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "ignore"
+      }
+    ]
+  },
+  {
+    "hero": "oda_nobunaga",
+    "card": "battle_maneuvers",
+    "description": "После боя: возьмите 1 карту, затем передвиньте каждого своего бойца на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw1 move_friendly2"
+      }
+    ]
+  },
+  {
+    "hero": "oda_nobunaga",
+    "card": "momentous_shift",
+    "description": "В бою: если боец начал ход на другой клетке, сила 5.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      }
+    ]
+  },
+  {
+    "hero": "oda_nobunaga",
+    "card": "patience_and_strategy",
+    "description": "После боя: если противник окружён двумя вашими бойцами, ваш боец восстанавливает 2 здоровья.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "heal2"
+      }
+    ]
+  },
+  {
+    "hero": "oda_nobunaga",
+    "card": "spring_the_trap",
+    "description": "Сразу: можете поменять своего бойца с соседним дружественным бойцом. Другой боец становится защитником. После боя: нанесите противнику в бою 1 урон.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "swap_defender"
+      },
+      {
+        "stage": "after",
+        "oracle": "damage1"
+      }
+    ]
+  },
+  {
+    "hero": "oda_nobunaga",
+    "card": "reinforce",
+    "description": "Выберите два разных эффекта: каждый дружественный боец восстанавливает 1 здоровье; взять 2 карты; получить 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "heal_all1 draw2"
+      }
+    ]
+  },
+  {
+    "hero": "oda_nobunaga",
+    "card": "demon_king_of_the_sixth_heaven",
+    "description": "Нанесите по 2 урона всем врагам, окружённым двумя вашими бойцами.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "damage2"
+      }
+    ]
+  },
+  {
+    "hero": "oda_nobunaga",
+    "card": "pragmatism",
+    "description": "Сразу: отмените эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "tomoe_gozen",
+    "card": "fearsome_strength",
+    "description": "Сразу: можете поменять Томоэ с любым соседним бойцом. После боя: нанесите 1 урон любому соседнему бойцу.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "swap"
+      },
+      {
+        "stage": "after",
+        "oracle": "damage1"
+      }
+    ]
+  },
+  {
+    "hero": "tomoe_gozen",
+    "card": "witness_my_last_battle",
+    "description": "Можно атаковать только соседнего бойца. Карта открывается при объявлении атаки. После боя: завершите ход.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "end_turn"
+      }
+    ]
+  },
+  {
+    "hero": "tomoe_gozen",
+    "card": "five_against_thousands",
+    "description": "После боя: если Томоэ рядом с противником, можете сбросить карту, чтобы вернуть эту карту в руку.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "paid_return"
+      }
+    ]
+  },
+  {
+    "hero": "tomoe_gozen",
+    "card": "a_warriors_way",
+    "description": "После боя: передвиньте противника на 0–3 клетки. Если это герой, поместите Томоэ на свободную клетку рядом с ним.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_enemy3 follow"
+      }
+    ]
+  },
+  {
+    "hero": "tomoe_gozen",
+    "card": "piercing_shot",
+    "description": "После боя: возьмите 2 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "tomoe_gozen",
+    "card": "confront_any_demon_or_god",
+    "description": "После боя: возьмите 1 карту. При поражении посмотрите руку соперника и выберите карту, которую он сбросит.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw1 enemy_discard1 peek"
+      }
+    ]
+  },
+  {
+    "hero": "tomoe_gozen",
+    "card": "a_worthy_opponent",
+    "description": "В бою: если противник — герой, сила 5.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5"
+      }
+    ]
+  },
+  {
+    "hero": "tomoe_gozen",
+    "card": "flash_of_steel",
+    "description": "Сразу: если противник — герой, отмените эффекты его карты. После боя: если он рядом, нанесите ему 1 урон.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      },
+      {
+        "stage": "after",
+        "oracle": "damage1"
+      }
+    ]
+  },
+  {
+    "hero": "tomoe_gozen",
+    "card": "skirmish",
+    "description": "После боя: при победе передвиньте любого участника боя на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_either2"
+      }
+    ]
+  },
+  {
+    "hero": "tomoe_gozen",
+    "card": "refuse_to_retreat",
+    "description": "Сразу: Томоэ не может покидать клетку до конца хода. После боя: если противник рядом, он сбрасывает 1 карту.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "self_lock"
+      },
+      {
+        "stage": "after",
+        "oracle": "enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "tomoe_gozen",
+    "card": "deeds_of_valor",
+    "description": "В бою: Томоэ получает не больше 2 боевого урона.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "damage_cap"
+      }
+    ]
+  },
+  {
+    "hero": "tomoe_gozen",
+    "card": "lord_kisos_final_stand",
+    "description": "Передвиньте Томоэ на 0–3 клетки, можно проходить сквозь помощников. Затем выберите: восстановить 2 здоровья или получить 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "move_self3_sidekicks heal2"
+      }
+    ]
+  },
+  {
+    "hero": "william_shakespeare",
+    "card": "horror",
+    "description": "В бою: +1 за каждую карту «Ужас» в вашей строке.\nЗавершение строки: Нанесите противнику в бою по 1 урону за каждую другую карту в строке. Слогов: 2.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2"
+      }
+    ]
+  },
+  {
+    "hero": "william_shakespeare",
+    "card": "my_kingdom_for_a_horse",
+    "description": "Завершение строки: Получите 2 действия. Слогов: 6.",
+    "contracts": [
+      {
+        "stage": "none",
+        "oracle": "printed"
+      }
+    ]
+  },
+  {
+    "hero": "william_shakespeare",
+    "card": "all_are_punished",
+    "description": "После боя: нанесите по 1 урону каждому другому бойцу в зоне вашего бойца.\nЗавершение строки: Возьмите 1 карту. Слогов: 4.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "v13_zone_all"
+      }
+    ]
+  },
+  {
+    "hero": "william_shakespeare",
+    "card": "places_places",
+    "description": "После боя: передвиньте каждого Актёра на 0–3 клетки.\nЗавершение строки: Поместите Шекспира в зону без ваших Актёров. Слогов: 4.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_helpers3"
+      }
+    ]
+  },
+  {
+    "hero": "william_shakespeare",
+    "card": "once_more_unto_the_breach",
+    "description": "После боя: верните поверженного Актёра в свободную клетку зоны Шекспира.\nЗавершение строки: Верните всех поверженных Актёров в свободные клетки зоны Шекспира. Слогов: 6.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "revive"
+      }
+    ]
+  },
+  {
+    "hero": "william_shakespeare",
+    "card": "alas",
+    "description": "После боя: при поражении Шекспир восстанавливает 1 здоровье.\nЗавершение строки: Возьмите 2 карты. Шекспир восстанавливает 2 здоровья. Слогов: 2.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "heal1"
+      }
+    ]
+  },
+  {
+    "hero": "william_shakespeare",
+    "card": "the_ides_of_march",
+    "description": "Завершение строки: Нанесите 2 урона любому вражескому бойцу. Слогов: 4.",
+    "contracts": [
+      {
+        "stage": "none",
+        "oracle": "printed"
+      }
+    ]
+  },
+  {
+    "hero": "william_shakespeare",
+    "card": "et_tu_brute",
+    "description": "В бою: +1 за каждого вашего бойца рядом с противником в бою.\nЗавершение строки: Поместите каждого своего бойца в любую свободную клетку. Слогов: 4.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus3"
+      }
+    ]
+  },
+  {
+    "hero": "william_shakespeare",
+    "card": "deceive",
+    "description": "Сразу: отмените эффекты карты соперника.\nЗавершение строки: Верните эту карту в руку. Слогов: 2.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "william_shakespeare",
+    "card": "revise",
+    "description": "После боя: возьмите 1 карту, а при победе — 2.\nЗавершение строки: Передвиньте каждого бойца на 0–2 клетки, включая вражеских. Слогов: 2.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2"
+      }
+    ]
+  },
+  {
+    "hero": "william_shakespeare",
+    "card": "such_sweet_sorrow",
+    "description": "После боя: передвиньте своего бойца на 0–2 клетки.\nЗавершение строки: Возьмите 1 карту. Слогов: 4.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_self2"
+      }
+    ]
+  },
+  {
+    "hero": "william_shakespeare",
+    "card": "again",
+    "description": "После боя: можете вернуть первую карту своей строки в руку до добавления этой карты.\nЗавершение строки: Возьмите 1 карту. Слогов: 2.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "v13_first"
+      }
+    ]
+  },
+  {
+    "hero": "hamlet",
+    "card": "cruel_to_be_kind",
+    "description": "В бою: можете усилить эту карту картой из руки.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 own_hand_minus1"
+      }
+    ]
+  },
+  {
+    "hero": "hamlet",
+    "card": "uncertain_doom",
+    "description": "В бою: если карта соперника универсальная, игнорируйте её силу.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "ignore"
+      }
+    ]
+  },
+  {
+    "hero": "hamlet",
+    "card": "to_sleep_perchance_to_dream",
+    "description": "После боя: при победе передвиньте противника на число клеток до нанесённого боевого урона. При поражении Гамлет восстанавливает 1 здоровье.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_enemy3"
+      }
+    ]
+  },
+  {
+    "hero": "hamlet",
+    "card": "the_readiness_is_all",
+    "description": "После боя: поместите любого из участников боя в любую свободную клетку. До конца хода он не может покидать эту клетку.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "v13_ready"
+      }
+    ]
+  },
+  {
+    "hero": "hamlet",
+    "card": "the_plays_the_thing",
+    "description": "После боя: соперник сбрасывает 1 случайную карту. При победе Гамлет восстанавливает здоровье в размере её усиления.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "enemy_discard1 heal2"
+      }
+    ]
+  },
+  {
+    "hero": "hamlet",
+    "card": "blood_will_have_blood",
+    "description": "После боя: если Гамлет получал урон в этом ходу, нанесите противнику в бою 1 урон.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage1"
+      }
+    ]
+  },
+  {
+    "hero": "hamlet",
+    "card": "outrageous_fortune",
+    "description": "В бою: сбросьте верхнюю карту своей колоды и добавьте её усиление к силе этой карты. После боя: при поражении верните ту сброшенную карту в руку.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 own_discard1 own_deck1"
+      },
+      {
+        "stage": "after",
+        "oracle": "v13_fortune_back"
+      }
+    ]
+  },
+  {
+    "hero": "hamlet",
+    "card": "maddening_insight",
+    "description": "В бою: сила равна числу карт у вас в руке. После боя: при победе соперник сбрасывает 1 карту.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value3"
+      },
+      {
+        "stage": "after",
+        "oracle": "enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "hamlet",
+    "card": "the_rest_is_silence",
+    "description": "После боя: завершите ход.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "end_turn"
+      }
+    ]
+  },
+  {
+    "hero": "hamlet",
+    "card": "nothing_either_good_or_bad",
+    "description": "После боя: если карта соперника универсальная, нанесите противнику в бою 2 урона.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage2"
+      }
+    ]
+  },
+  {
+    "hero": "hamlet",
+    "card": "method_in_the_madness",
+    "description": "Положите любое число карт из руки под низ своей колоды. Затем возьмите до такого же числа карт. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "v13_method"
+      }
+    ]
+  },
+  {
+    "hero": "hamlet",
+    "card": "the_ghost",
+    "description": "Выберите: Гамлет восстанавливает 2 здоровья; либо поместите Гамлета в любую свободную клетку его зоны и получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "heal2"
+      }
+    ]
+  },
+  {
+    "hero": "titania",
+    "card": "queen_of_the_fairies",
+    "description": "В бою: +1 за каждые чары в вашем сбросе чар.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus1"
+      }
+    ]
+  },
+  {
+    "hero": "titania",
+    "card": "met_by_moonlight",
+    "description": "После боя: поместите Оберона на свободную клетку рядом с Титанией.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "v13_moonlight"
+      }
+    ]
+  },
+  {
+    "hero": "titania",
+    "card": "as_wise_as_beautiful",
+    "description": "После боя: возьмите 1 карту. Можете сбросить свои открытые чары, чтобы вместо этого взять 2 карты.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw2 v13_spent"
+      }
+    ]
+  },
+  {
+    "hero": "titania",
+    "card": "whisked_away",
+    "description": "После боя: передвиньте своего бойца на 0–2 клетки. Можете сбросить открытые чары, чтобы затем поместить его в любую свободную клетку.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_self2 place_self_any v13_spent"
+      }
+    ]
+  },
+  {
+    "hero": "titania",
+    "card": "the_moon_looks_down",
+    "description": "После боя: положите одни сброшенные чары под низ своей колоды чар.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "v13_cycle"
+      }
+    ]
+  },
+  {
+    "hero": "titania",
+    "card": "fairy_song",
+    "description": "В бою: можете сбросить открытые чары, чтобы сила этой карты стала 5.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value5 v13_spent"
+      }
+    ]
+  },
+  {
+    "hero": "titania",
+    "card": "parting_gift",
+    "description": "После боя: можете нанести по 2 урона каждому участнику боя.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "frenzy"
+      }
+    ]
+  },
+  {
+    "hero": "titania",
+    "card": "but_a_dream",
+    "description": "Сразу: отмените эффекты карты соперника, игнорируйте её силу и верните её в руку сопернику. После боя: возьмите 1 карту.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel ignore v13_return_other"
+      },
+      {
+        "stage": "after",
+        "oracle": "draw1"
+      }
+    ]
+  },
+  {
+    "hero": "titania",
+    "card": "protection_of_the_fairy_woods",
+    "description": "Сразу: можете сбросить открытые чары, чтобы отменить эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel v13_spent"
+      }
+    ]
+  },
+  {
+    "hero": "titania",
+    "card": "a_momentary_glance",
+    "description": "Нанесите 2 урона любому бойцу в зоне Титании.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "damage2"
+      }
+    ]
+  },
+  {
+    "hero": "titania",
+    "card": "gift_of_the_fair_folk",
+    "description": "Выберите два разных эффекта: любой боец восстанавливает 2 здоровья; взять 2 карты; передвинуть двух разных бойцов на 0–2 клетки каждого.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "heal2 draw2"
+      }
+    ]
+  },
+  {
+    "hero": "titania",
+    "card": "what_fools_these_mortals_be",
+    "description": "Выберите соперника, посмотрите его руку и выберите карту. Он замешивает её в свою колоду.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "v13_fools peek"
+      }
+    ]
+  },
+  {
+    "hero": "the_wayward_sisters",
+    "card": "double_double",
+    "description": "В бою: +1 за каждый разный ингредиент в вашем котле.\nИнгредиент: лапка ящерицы.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus3"
+      }
+    ]
+  },
+  {
+    "hero": "the_wayward_sisters",
+    "card": "all_seeing_familiar",
+    "description": "Сразу: верните карту из своего сброса в котёл. После боя: при победе посмотрите верхнюю карту своей колоды и положите её в руку или в котёл.\nИнгредиент: лапка ящерицы.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "v13_bubble"
+      },
+      {
+        "stage": "after",
+        "oracle": "draw1"
+      }
+    ]
+  },
+  {
+    "hero": "the_wayward_sisters",
+    "card": "hurly_burly",
+    "description": "В бою: раскройте верхнюю карту своей колоды. Соперник выбирает: положить её вам в руку; либо положить в котёл и добавить её усиление к силе этой карты.\nИнгредиент: змея.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "draw1"
+      }
+    ]
+  },
+  {
+    "hero": "the_wayward_sisters",
+    "card": "fire_burn_and_cauldron_bubble",
+    "description": "Сразу: верните карту из своего сброса в котёл.\nИнгредиент: летучая мышь.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "v13_bubble"
+      }
+    ]
+  },
+  {
+    "hero": "the_wayward_sisters",
+    "card": "the_stars_align",
+    "description": "В бою: сила равна числу разных зон, в которых находятся ваши живые бойцы.\nИнгредиент: лапка ящерицы.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "v13_zones"
+      }
+    ]
+  },
+  {
+    "hero": "the_wayward_sisters",
+    "card": "curious_familiar",
+    "description": "После боя: верните карту из котла в руку.\nИнгредиент: летучая мышь.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "v13_curious"
+      }
+    ]
+  },
+  {
+    "hero": "the_wayward_sisters",
+    "card": "ward",
+    "description": "После боя: поместите противника в бою в любую свободную клетку зоны вашего бойца.\nИнгредиент: летучая мышь.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "v13_ward"
+      }
+    ]
+  },
+  {
+    "hero": "the_wayward_sisters",
+    "card": "toil_and_trouble",
+    "description": "В бою: +1 за каждый разный ингредиент в вашем котле.\nИнгредиент: змея.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus3"
+      }
+    ]
+  },
+  {
+    "hero": "the_wayward_sisters",
+    "card": "pricking_of_my_thumbs",
+    "description": "После боя: нанесите противнику в бою столько урона, сколько боевого урона получил ваш боец.\nИнгредиент: змея.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage3"
+      }
+    ]
+  },
+  {
+    "hero": "the_wayward_sisters",
+    "card": "unnatural_remedy",
+    "description": "Сразу: сбросьте до 3 карт из котла. За каждую выберите любого бойца, который восстановит 1 здоровье. Можно выбирать одного бойца несколько раз.\nИнгредиент: змея.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "v13_remedy"
+      }
+    ]
+  },
+  {
+    "hero": "the_wayward_sisters",
+    "card": "something_wicked_this_way_comes",
+    "description": "Сотворите любое заклинание, затем другое заклинание. Ингредиенты не требуются; карты котла не сбрасываются.\nИнгредиент: летучая мышь.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "draw1 heal1 move_enemy3 v13_keep_pot"
+      }
+    ]
+  },
+  {
+    "hero": "the_wayward_sisters",
+    "card": "sisters_prophecy",
+    "description": "Посмотрите 4 верхние карты своей колоды. Возьмите 2 в руку, остальные верните наверх в любом порядке.\nИнгредиент: лапка ящерицы.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "prophecy"
+      }
+    ]
+  },
+  {
+    "hero": "geralt_of_rivia",
+    "card": "igni",
+    "description": "После боя: нанесите противнику в бою 2 урона и по 1 урону каждому другому бойцу рядом с Геральтом.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "v14_igni"
+      }
+    ]
+  },
+  {
+    "hero": "geralt_of_rivia",
+    "card": "riposte",
+    "description": "После боя выберите: нанести 1 урон любому соседнему бойцу; либо поменять Геральта местами с любым соседним бойцом.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage1"
+      }
+    ]
+  },
+  {
+    "hero": "geralt_of_rivia",
+    "card": "yrden",
+    "description": "Сразу: противник в бою не может покидать клетку до конца хода. После боя: передвиньте Геральта на 0–2 клетки.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "v14_foe_lock"
+      },
+      {
+        "stage": "after",
+        "oracle": "move_hero2"
+      }
+    ]
+  },
+  {
+    "hero": "geralt_of_rivia",
+    "card": "rend",
+    "description": "В бою: можете усилить эту карту картой из руки.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2 own_hand_minus1"
+      }
+    ]
+  },
+  {
+    "hero": "geralt_of_rivia",
+    "card": "disciplined_duelist",
+    "description": "После боя, в зависимости от напечатанной силы карты соперника: 2 — можете взять карту; 3 — нанесите противнику 1 урон; 4 — соперник сбрасывает 1 карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "geralt_of_rivia",
+    "card": "damn_youre_ugly",
+    "description": "Без эффектов.",
+    "contracts": [
+      {
+        "stage": "none",
+        "oracle": "printed"
+      }
+    ]
+  },
+  {
+    "hero": "geralt_of_rivia",
+    "card": "annoying_tune",
+    "description": "После боя: передвиньте противника в бою на 0–4 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_enemy4"
+      }
+    ]
+  },
+  {
+    "hero": "geralt_of_rivia",
+    "card": "plot_twist",
+    "description": "После боя: посмотрите руку соперника и выберите 1 карту для сброса. Возьмите 1 карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "enemy_discard1 draw1 peek"
+      }
+    ]
+  },
+  {
+    "hero": "geralt_of_rivia",
+    "card": "witcher_senses",
+    "description": "Найдите карту снаряжения в своей колоде или сбросе и возьмите её в руку. Если взяли из колоды, раскройте найденную карту и замешайте этот приём в колоду.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "v14_senses"
+      }
+    ]
+  },
+  {
+    "hero": "geralt_of_rivia",
+    "card": "gear_sword_of_steel",
+    "description": "После боя: получите 1 действие, либо 2 действия, если у противника в бою осталось не меньше 8 здоровья.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "action2"
+      }
+    ]
+  },
+  {
+    "hero": "geralt_of_rivia",
+    "card": "gear_sword_of_silver",
+    "description": "Сразу: если напечатанная сила карты противника не меньше 4, игнорируйте её силу.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "ignore"
+      }
+    ]
+  },
+  {
+    "hero": "geralt_of_rivia",
+    "card": "gear_wolf_medallion",
+    "description": "Сразу: отмените эффекты карты соперника. В бою: если противник не рядом с Геральтом, игнорируйте силу его карты.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      },
+      {
+        "stage": "during",
+        "oracle": "ignore"
+      }
+    ]
+  },
+  {
+    "hero": "geralt_of_rivia",
+    "card": "gear_armor_of_the_forgotten_wolf",
+    "description": "В бою: +1 за каждого бойца рядом с Геральтом. После боя: завершите ход.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus2"
+      },
+      {
+        "stage": "after",
+        "oracle": "end_turn"
+      }
+    ]
+  },
+  {
+    "hero": "geralt_of_rivia",
+    "card": "gear_blizzard",
+    "description": "Возьмите 1 карту. Передвиньте Геральта на 0–3 клетки. Постоянно: соперники не могут получать дополнительные действия. Сбросьте этот приём в конце своего хода, если вы не атаковали.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "draw1 move_hero3"
+      }
+    ]
+  },
+  {
+    "hero": "geralt_of_rivia",
+    "card": "gear_tawny_owl",
+    "description": "Возьмите 2 карты. Получите 1 действие. Постоянно: можете игнорировать сброс карт из руки из-за эффектов. Усиление, добровольная оплата и сброс до 7 карт оплачиваются обычно. Сбросьте этот приём в конце своего хода, если вы не атаковали.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "draw2 action1"
+      }
+    ]
+  },
+  {
+    "hero": "ciri",
+    "card": "lion_cub_of_cintra",
+    "description": "В бою: при 1–4 картах Источника в сбросе сила 4; при 5 и более — 7.\nКарта Источника.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value7"
+      }
+    ]
+  },
+  {
+    "hero": "ciri",
+    "card": "channel_the_source",
+    "description": "В бою: можете сбросить любое число карт Источника из руки. За каждую сила этой карты увеличивается на 2.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus4 own_hand_minus2 own_discard2"
+      }
+    ]
+  },
+  {
+    "hero": "ciri",
+    "card": "bane_of_the_aen_elle",
+    "description": "После боя: передвиньте Иггоракс на 0–4 клетки сквозь вражеских бойцов. Затем нанесите 1 урон одному врагу, сквозь которого он прошёл. Выбирайте маршрут по клеткам.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "v14_path"
+      }
+    ]
+  },
+  {
+    "hero": "ciri",
+    "card": "pushed_to_the_brink",
+    "description": "После боя: при 2–6 картах Источника в сбросе нанесите противнику в бою 1 урон; при 7 и более нанесите 2 урона любому врагу в пределах 3 клеток от Цири.\nКарта Источника.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "damage2"
+      }
+    ]
+  },
+  {
+    "hero": "ciri",
+    "card": "the_lady_of_space_and_time",
+    "description": "После боя: при 3–7 картах Источника в сбросе верните любую карту из сброса наверх своей колоды; при 8 и более верните карту из сброса в руку, затем возьмите 1 карту.\nКарта Источника.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "v14_lady"
+      }
+    ]
+  },
+  {
+    "hero": "ciri",
+    "card": "zireael",
+    "description": "В бою: при 3–4 картах Источника в сбросе сила 4; при 5 и более сила 4 и соперник сбрасывает 1 случайную карту.\nКарта Источника.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "value4 enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "ciri",
+    "card": "blink",
+    "description": "После боя: передвиньте Цири на 0–3 клетки. Она может проходить сквозь врагов.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_hero3_through"
+      }
+    ]
+  },
+  {
+    "hero": "ciri",
+    "card": "searching_strike",
+    "description": "После боя: при победе можете найти карту Источника в своей колоде, раскрыть её и взять в руку. Перемешайте колоду после поиска.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw1 v14_source_search"
+      }
+    ]
+  },
+  {
+    "hero": "ciri",
+    "card": "parry",
+    "description": "Сразу: отмените эффекты карты соперника.",
+    "contracts": [
+      {
+        "stage": "immediately",
+        "oracle": "cancel"
+      }
+    ]
+  },
+  {
+    "hero": "ciri",
+    "card": "child_of_the_elder_blood",
+    "description": "При 4–8 картах Источника в сбросе нанесите по 1 урону каждому другому бойцу в зоне Цири; при 9 и более нанесите по 3 урона.\nКарта Источника.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "v14_zone3"
+      }
+    ]
+  },
+  {
+    "hero": "ciri",
+    "card": "unicorn_ally",
+    "description": "Цири восстанавливает 2 здоровья. Постоянно: после каждого боя вашего бойца возьмите 1 карту. Сбросьте этот приём в конце своего хода, если у вас в руке 5 или больше карт.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "heal2"
+      }
+    ]
+  },
+  {
+    "hero": "ancient_leshen",
+    "card": "primeval_slam",
+    "description": "После боя: призовите волка в зоне Лешего. Затем передвиньте каждого волка на 0–3 клетки.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "revive move_helpers3"
+      }
+    ]
+  },
+  {
+    "hero": "ancient_leshen",
+    "card": "flock_of_birds",
+    "description": "После боя: можете поместить Лешего в любую свободную клетку.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "place_hero_any"
+      }
+    ]
+  },
+  {
+    "hero": "ancient_leshen",
+    "card": "disturbing_howls",
+    "description": "После боя: передвиньте противника на 0–2 клетки. Получите 1 действие.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "move_enemy2 action1"
+      }
+    ]
+  },
+  {
+    "hero": "ancient_leshen",
+    "card": "nature_abounds",
+    "description": "После боя: возьмите по 1 карте за каждого своего бойца рядом с противником в бою.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw3"
+      }
+    ]
+  },
+  {
+    "hero": "ancient_leshen",
+    "card": "command_the_forest",
+    "description": "После боя: при победе соперник сбрасывает 1 карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "enemy_discard1"
+      }
+    ]
+  },
+  {
+    "hero": "ancient_leshen",
+    "card": "wily_fighting",
+    "description": "После боя: нанесите по 1 урону каждому врагу рядом с вашим бойцом.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "adjacent_enemies1"
+      }
+    ]
+  },
+  {
+    "hero": "ancient_leshen",
+    "card": "planted_feet",
+    "description": "После боя: если ваш боец ни разу не покидал клетку в этом ходу, возьмите 1 карту.",
+    "contracts": [
+      {
+        "stage": "after",
+        "oracle": "draw1"
+      }
+    ]
+  },
+  {
+    "hero": "ancient_leshen",
+    "card": "harrying_strike",
+    "description": "В бою: +2 за каждого своего бойца рядом с противником в бою.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "plus4"
+      }
+    ]
+  },
+  {
+    "hero": "ancient_leshen",
+    "card": "primeval_guardian",
+    "description": "В бою: соперник сбрасывает верхнюю карту своей колоды и добавляет её усиление к силе своей карты. После боя: передвиньте каждого волка на 0–3 клетки.",
+    "contracts": [
+      {
+        "stage": "during",
+        "oracle": "v14_guardian"
+      },
+      {
+        "stage": "after",
+        "oracle": "move_helpers3"
+      }
+    ]
+  },
+  {
+    "hero": "ancient_leshen",
+    "card": "strength_of_the_pack",
+    "description": "Призовите волка в зоне Лешего. Постоянно: в начале своего хода Леший восстанавливает 1 здоровье. Сбросьте этот приём в конце своего хода, если в зоне Лешего нет ваших волков.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "revive"
+      }
+    ]
+  },
+  {
+    "hero": "ancient_leshen",
+    "card": "vanish_into_murder",
+    "description": "Нанесите по 1 урону каждому врагу в зоне Лешего. Уберите Лешего с поля до начала своего следующего хода, когда поместите его в любую свободную клетку. Затем возьмите 1 карту. Если живых волков нет, ход заканчивается без добора.",
+    "contracts": [
+      {
+        "stage": "scheme",
+        "oracle": "v14_zone_enemy1 vanish draw1"
+      }
+    ]
+  }
+]

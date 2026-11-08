@@ -1,0 +1,15 @@
+extends "res://tests/v36_edge_tests.gd"
+func run():
+ for active_machines in [0,1,3]:
+  var g=fixture36("krang");var foe=g.hero_fighter(1);g.players[0].machines=active_machines;g.players[0].hand=[c36(g,0,760),c36(g,0,754)];g.players[1].hand=[raw_card("defense",20)];g.attack(0,foe,0);g.continue_attack();g=wait_choice(g,"combat_boost");check(g.pending_choice.options[0].contains("⚄"),"variable BOOST visible in hand picker");g=clone(g);g.choose_effect_option(0)
+  if active_machines>0:
+   check(g.pending_choice.action=="v36_die","combat BOOST rolls and permits reroll");var result=int(g.pending_choice.roll);g=clone(g);g.choose_effect_option(0);g=stable(g);check(g.last_combat.attack_value==3+result,"combat BOOST uses accepted die result")
+  else:g=stable(g);check(g.last_combat.attack_value>=3 and g.last_combat.attack_value<=8,"zero-machine combat BOOST completes without stale picker")
+  check(g.players[0].discard.any(func(c):return c.id=="tmntv_754"and c.boost==0),"dice BOOST goes to discard once with printed state")
+ var g=fixture36("shredder");var before=g._v36.feet(0).size();direct(g,[{"kind":"v36_deploy","remaining":2,"anywhere":true}]);g=clone(g);check(g.pending_choice.action=="v36_deploy","first of two deployments");g.choose_effect_option(0);g=clone(g);check(g.pending_choice.action=="v36_deploy","second deployment remains after save");g.choose_effect_option(0);g=stable(g);check(g._v36.feet(0).size()==before+2,"two distinct paths deployed")
+ g=fixture36("shredder");g.players[0].foot=g._v36.edges(0,true).slice(0,24);before=g.players[0].foot.size();direct(g,[{"kind":"v36_deploy","remaining":2,"anywhere":true}]);g=stable(g);check(g.players[0].foot.size()==before,"empty stock never exceeds twenty-four")
+ g=fixture36("krang");var foe=g.hero_fighter(1);combat(g,0,foe,c36(g,0,762),raw_card("defense",20));g=wait_choice(g,"v36_die");check(g._v36.machines(0)==2,"Amplification activates before its roll");g=clone(g);g.choose_effect_option(1);g=clone(g);check(g._v36.machines(0)==1,"first die reroll uses machine");g.choose_effect_option(1);g=stable(g);check(g._v36.machines(0)==0,"last machine spent and effect resumes")
+ g=fixture36("krang");foe=g.hero_fighter(1);g.fighters[0].node=12;g.fighters[foe].node=13;g._combat_resolution={"d":{"card":raw_card("defense",20)}};var ctx={"owner":0,"self":0,"opponent":foe,"opponent_owner":1,"card":c36(g,0,761),"_combat_slot":"a"};g._flow={"kind":"ability","stage":"effects","effect_logs":[],"completion":"action"};g.combat_report={};g.players[1].hand=[raw_card("attack",2),raw_card("attack",2)];g._v36.rolled(ctx,"chain",0,{});check(g._effect_queue.is_empty(),"Chain Flail does not discard against high printed value")
+ g=fixture36("krang");g.players[0].deck=[raw_card("attack",2)];g.players[1].deck=[raw_card("attack",2)];var size=g.players[0].hand.size();g.players[0].deck[-1].name="Long long name";g._v36.run({"kind":"v36_card","number":753},{"owner":0,"self":0,"opponent":g.hero_fighter(1),"opponent_owner":1});check(g.players[0].hand.size()==size+1,"Warlord draws longer revealed name")
+ print("V36_SEQUENCE checks=%d failures=%d"%[checks,failures]);quit(1 if failures else 0)
+

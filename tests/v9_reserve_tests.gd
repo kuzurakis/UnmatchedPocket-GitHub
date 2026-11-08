@@ -1,0 +1,21 @@
+extends "res://tests/v9_engine_tests.gd"
+func run():
+	var g = game(["willow","king_arthur","sun_wukong","medusa"],true,{"mode":"teams"})
+	var clones = g._v9.helpers(2,false)
+	check(clones.size() == 3,"three unused Clone tokens")
+	for id in clones: check(bool(g.fighters[id].reserve),"unused clones are in reserve")
+	var ctx = {"owner":0,"self":0,"opponent":-1,"opponent_owner":-1,"card":card(g,0,"resurrect"),"won":false}
+	g._v7._resurrect(ctx)
+	check(g.pending_choice.is_empty(),"Willow cannot resurrect Clone that has never entered the battlefield")
+	var id = int(clones[0])
+	g._v9._put_clone({"owner":2},id,8,false,int(g.fighters[g.hero_fighter(2)].node))
+	check(g.fighters[id].alive and not bool(g.fighters[id].reserve),"summoned Clone leaves reserve")
+	g._damage(id,1)
+	check(not g.fighters[id].alive and not bool(g.fighters[id].reserve),"defeated Clone is distinct from unused reserve")
+	g = clone(g)
+	g._v7._resurrect(ctx)
+	check(g.pending_choice.action == "v7_resurrect" and g.pending_choice.ids.size() == 1 and int(g.pending_choice.ids[0]) == id,"Willow may resurrect only defeated Clone after save")
+	test_willow()
+	test_effect_results()
+	print("V9_RESERVE checks=%d failures=%d" % [checks,failures])
+	quit(1 if failures else 0)

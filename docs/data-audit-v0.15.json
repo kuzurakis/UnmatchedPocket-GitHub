@@ -1,0 +1,10 @@
+{
+  "checks": 10638,
+  "failures": 0,
+  "heroes": 40,
+  "sets": 14,
+  "boards": 22,
+  "card_types": 500,
+  "source_strings": 1773,
+  "note": "Realms Fall currently includes Eredin only; other decks are not yet selectable."
+}

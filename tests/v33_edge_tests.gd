@@ -1,0 +1,9 @@
+extends "res://tests/v33_tmnt_tests.gd"
+func run():
+ var g=game(["donatello","king_arthur"],true);g=stable(g);var foe=adjacent(g)
+ combat(g,0,foe,card(g,0,"tmnt_721"),card(g,1,"feint"));g=stable(g);check(g._v33.bonus(0,true)==1,"cancelled invention still tucked")
+ g=game(["raphael","king_arthur"],true);g=stable(g);foe=adjacent(g);g.players[0].deck=[];g.players[0].hand=[];combat(g,0,foe,card(g,0,"tmnt_713"),raw_card("defense",30));g=stable(g);check(g.players[0].hand.any(func(c):return c.id=="tmnt_713")and g.players[0].discard.all(func(c):return c.id!="tmnt_713"),"Relentless shuffles self before draw without duplicate")
+ g=game(["leonardo","king_arthur"],true);g=stable(g);foe=adjacent(g);g.players[0].hand=[raw_card("attack",1)];g.players[0].hand=[card(g,0,"tmnt_701"),raw_card("attack",1)];g.players[1].hand=[raw_card("attack",20)];g.active=1;g.attack(foe,0,0);g.continue_attack();g.defend(0);g=stable(g);check(g.last_combat.damage==0 if g.last_combat.has("damage")else g.fighters[0].hp==16,"I Have a Plan ignores opposing value after cost")
+ g=game(["michelangelo","king_arthur"],true);g=stable(g);foe=adjacent(g);var size=g.players[0].hand.size();combat(g,0,foe,card(g,0,"tmnt_708"),raw_card("defense",20));g=stable(g);check(int(g.players[0].get("played_turn",0))==1,"Mikey attack counted once")
+ g=game(["donatello","king_arthur"],true);g=stable(g);g.players[0].bot=false;check(g.begin_maneuver(),"Donnie maneuver starts");check(g.pending_choice.action=="v33_maneuver","Donnie chooses draw count before drawing");g=clone(g);g.choose_effect_option(1);check(g.pending_choice.action=="v33_bottom","Donnie must bottom a card");g.choose_effect_option(0);g=stable(g);check(g.phase=="move","draw-bottom resumes movement")
+ print("V33_EDGE checks=%d failures=%d"%[checks,failures]);quit(1 if failures else 0)

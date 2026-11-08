@@ -1,0 +1,56 @@
+extends "res://tests/v07_render.gd"
+func run():
+	folder = "res://../../work/verification-v0.10"
+	root.size = Vector2i(1280,720)
+	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(folder))
+	app = load("res://main.tscn").instantiate()
+	root.add_child(app)
+	await settle()
+	app.bot_timer.stop()
+	app.I18n.set_language("ru")
+	app.language_option.select(0)
+	app.set_option.select(9)
+	app._set_changed(9)
+	await shot("menu")
+	app._show_hero_info("dr_jill_trent")
+	await shot("new-set")
+	app._close_popup()
+	app.engine.interactive = false
+	await start(["nikola_tesla","dr_jill_trent","annie_christmas","golden_bat"],"point_pleasant")
+	app.engine.interactive = true
+	app.engine.players[0].hand = []
+	for id in ["death_ray","lightning_storm","repulsion_blast","7_hertz","x_ray_radiation"]: app.engine.players[0].hand.append(card("nikola_tesla",id))
+	app._refresh()
+	await shot("game-ru")
+	app._show_player_info(0)
+	await shot("character")
+	app._close_popup()
+	app._show_map_rules(true)
+	await shot("map-rules")
+	app._close_popup()
+	app.engine._start_ability(0,"Зарядка катушки",[{"kind":"v10_end_charge"}],"end_turn")
+	app._refresh()
+	await shot("decision")
+	app._hide_popup()
+	await shot("hidden")
+	app._toggle_inspector_zoom()
+	await shot("hidden-zoom")
+	app._restore_popup()
+	app._choose_effect_option(0)
+	app.I18n.set_language("en")
+	app._refresh()
+	await shot("game-en")
+	app.I18n.set_language("ru")
+	app.engine.interactive = false
+	await start(["annie_christmas","golden_bat"],"mcminnville_or")
+	app.engine.interactive = true
+	app._refresh()
+	await shot("mcminnville")
+	for b in app.boards:
+		app.engine.interactive = false
+		await start(["golden_bat","nikola_tesla"],str(b.id))
+		app._show_board_zoom()
+		await shot("numbered-"+str(b.id))
+		app._close_popup()
+	print("V10_RENDER_OK")
+	quit()

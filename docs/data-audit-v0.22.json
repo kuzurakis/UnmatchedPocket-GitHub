@@ -1,0 +1,13 @@
+{
+  "checks": 8966,
+  "failures": 0,
+  "heroes": 56,
+  "cards": 686,
+  "source_strings": 2240,
+  "languages": [
+    "ru",
+    "en",
+    "nb",
+    "es"
+  ]
+}

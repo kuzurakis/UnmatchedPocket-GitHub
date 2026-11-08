@@ -1,0 +1,161 @@
+{
+  "suites": 25,
+  "passed": 25,
+  "failed": 0,
+  "checks": 352337,
+  "reported_matches": 110,
+  "unique_card_definitions": 686,
+  "card_execution_scenarios": 1372,
+  "tests": [
+    {
+      "test": "v22_card_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "V22_CARDS checks=7359 failures=0 cards=1372"
+    },
+    {
+      "test": "v21_rules_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "V21_RULES checks=411 failures=0"
+    },
+    {
+      "test": "v20_large_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "V20_LARGE checks=20 failures=0"
+    },
+    {
+      "test": "v19_match_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "V19_MATCHES checks=93 failures=0"
+    },
+    {
+      "test": "v18_rules_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "V18_RULES checks=33019 failures=0 matches=9 saves=2423"
+    },
+    {
+      "test": "v17_rules_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "V17_RULES checks=47452 failures=0 matches=12 card_runs=1372 saves=2412"
+    },
+    {
+      "test": "v16_rules_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "V16_RULES checks=34067 failures=0 matches=9 card_runs=1372 saves=2420"
+    },
+    {
+      "test": "v15_rules_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "V15_RULES checks=52491 failures=0 matches=18 card_runs=1372 saves=2492"
+    },
+    {
+      "test": "v14_rules_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "V14_RULES checks=56093 failures=0 matches=24 card_runs=1372 saves=2653"
+    },
+    {
+      "test": "v13_rules_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "V13_RULES checks=72253 failures=0 matches=30 card_runs=1372 saves=2556"
+    },
+    {
+      "test": "v12_engine_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "V12_ENGINE checks=19544 failures=0 matches=8 card_runs=1372 saves=2319"
+    },
+    {
+      "test": "v11_focus_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "V11_FOCUS checks=110 failures=0"
+    },
+    {
+      "test": "v11_ability_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "V11_ABILITIES checks=313 failures=0 heroes=56 scenarios=64"
+    },
+    {
+      "test": "v14_card_contract_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "V14_CARD_CONTRACTS checks=7350 failures=0 cards=489 stages=528"
+    },
+    {
+      "test": "muldoon_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "MULDOON_TESTS checks=169 failures=0"
+    },
+    {
+      "test": "v22_rules_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "V22_RULES checks=493 failures=0"
+    },
+    {
+      "test": "ui_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "UI_TESTS checks=430 failures=0"
+    },
+    {
+      "test": "localization_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "LOCALIZATION_TESTS checks=4456 failures=0 untranslated=0"
+    },
+    {
+      "test": "localization_v07_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "LOCALIZATION_V07_TESTS checks=5994 failures=0 untranslated=0"
+    },
+    {
+      "test": "responsive_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "RESPONSIVE_TESTS 10091 checks, 0 failures, 5 sizes"
+    },
+    {
+      "test": "hand_view_ui_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "HAND_VIEW_UI_TESTS checks=89 failures=0"
+    },
+    {
+      "test": "scroll_gesture_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "SCROLL_GESTURE before=100 after=145"
+    },
+    {
+      "test": "abilities_ui_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "ABILITY_UI_TESTS checks=29 failures=0"
+    },
+    {
+      "test": "complex_effect_ui_tests",
+      "exit": 0,
+      "passed": true,
+      "last": "COMPLEX_EFFECT_UI_TESTS checks=11 failures=0"
+    },
+    {
+      "test": "v22_render_native",
+      "exit": 0,
+      "passed": true,
+      "last": "V22_UI_LANGUAGES_OK (new hero sheets in EN/NB/ES)"
+    }
+  ]
+}

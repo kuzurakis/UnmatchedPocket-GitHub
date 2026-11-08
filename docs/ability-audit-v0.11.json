@@ -1,0 +1,306 @@
+{
+  "checks": 279,
+  "failures": 0,
+  "results": [
+    {
+      "hero": "alice",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "alice",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "king_arthur",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "king_arthur",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "medusa",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "medusa",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "sinbad",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "sinbad",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "robin_hood",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "robin_hood",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "bigfoot",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "bigfoot",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "bruce_lee",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "bruce_lee",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "ingen",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "ingen",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "raptors",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "raptors",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "muhammad_ali",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "muhammad_ali",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "dracula",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "dracula",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "sherlock_holmes",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "sherlock_holmes",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "jekyll_hyde",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "jekyll_hyde",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "invisible_man",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "invisible_man",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "buffy",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "buffy",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "angel",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "angel",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "spike",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "spike",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "willow",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "willow",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "little_red",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "little_red",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "beowulf",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "beowulf",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "houdini",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "houdini",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "genie",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "genie",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "achilles",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "achilles",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "bloody_mary",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "bloody_mary",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "sun_wukong",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "sun_wukong",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "yennenga",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "yennenga",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "nikola_tesla",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "nikola_tesla",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "dr_jill_trent",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "dr_jill_trent",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "annie_christmas",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "annie_christmas",
+      "passed": true,
+      "scenario": 2
+    },
+    {
+      "hero": "golden_bat",
+      "passed": true,
+      "scenario": 1
+    },
+    {
+      "hero": "golden_bat",
+      "passed": true,
+      "scenario": 2
+    }
+  ]
+}

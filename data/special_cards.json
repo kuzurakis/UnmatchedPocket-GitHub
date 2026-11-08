@@ -1,0 +1,102 @@
+{
+  "glamours": {
+    "greed": {
+      "path": "res://assets/extras/titania/glamour_of_greed.webp",
+      "name": "Чары жадности",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/tokens/73yvO0TtMw67Y1lH-HZIX.webp",
+      "sha256": "e9420bf5cfcc531fdd765a35a17124ca24e376bb8eeaa13fcedf7d745483e144",
+      "id": "greed",
+      "text": "В конце своего хода можете взять 1 карту."
+    },
+    "invisibility": {
+      "path": "res://assets/extras/titania/glamour_of_invisibility.webp",
+      "name": "Чары невидимости",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/tokens/XUKgIuL1imsDn_JLOKYtK.webp",
+      "sha256": "eda9f6c8eeccaa6015f1fd536ea104ca323058a543738620b988c20275a098c9",
+      "id": "invisibility",
+      "text": "Ваши бойцы могут проходить сквозь вражеских бойцов."
+    },
+    "jealousy": {
+      "path": "res://assets/extras/titania/glamour_of_jealousy.webp",
+      "name": "Чары ревности",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/tokens/uOwFEFttvt-s-KQmuvWCI.webp",
+      "sha256": "89a5138cd9b604e34ef0ad31a46543f2bd656e10da3afe416ab94a6ce47a0349",
+      "id": "jealousy",
+      "text": "Когда Титанию или Оберона атакуют, до выбора защиты можете поменять их местами. Другой боец становится защитником."
+    },
+    "love": {
+      "path": "res://assets/extras/titania/glamour_of_love.webp",
+      "name": "Чары любви",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/tokens/oG32g98Cn5m_MZpimEN0V.webp",
+      "sha256": "fc736d2ded77a32f4b9d41c4e6af1d6ce507ec9c846c895ebc18385213791cf8",
+      "id": "love",
+      "text": "При манёвре можете передвинуть одного вражеского бойца на 0–1 клетку до движения своих бойцов."
+    },
+    "rhyme": {
+      "path": "res://assets/extras/titania/glamour_of_rhyme.webp",
+      "name": "Чары рифмы",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/tokens/GgvkeApdsyFkuouXzMAYn.webp",
+      "sha256": "0cb5cab3afddc9bff144c9e95550dbf1d5cdf1dad067eca13dc1f6161173a9f4",
+      "id": "rhyme",
+      "text": "После розыгрыша приёма получите 1 действие."
+    },
+    "sleep": {
+      "path": "res://assets/extras/titania/glamour_of_sleep.webp",
+      "name": "Чары сна",
+      "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/tokens/wufvtwYOwDQq94J2IKzBS.webp",
+      "sha256": "4388680c561652b2c3cb601548078312f4248a6212eecf4a52925a6ffd746169",
+      "id": "sleep",
+      "text": "Ваши бойцы получают только боевой урон. Урон эффектов и истощения предотвращается."
+    }
+  },
+  "cauldron": {
+    "path": "res://assets/extras/the_wayward_sisters/cauldron.webp",
+    "name": "Cauldron",
+    "source_url": "https://yptpnirqgfmxphjvsdjz.supabase.co/storage/v1/object/public/heroes/tokens/DcrAVYtKsMnPFAFVekqEM.webp",
+    "sha256": "b57be53f074c38811572abb3fe5fe0fbeb4d924be5a553f2f822cb35e7102721"
+  },
+  "miseries": {
+    "hope": {
+      "name": "Hope",
+      "text": "Look at the top card of Pandora's Box before deciding whether to reveal it.",
+      "path": "res://assets/heroes/pandora-hope.webp",
+      "feathers": 0
+    },
+    "pain": {
+      "name": "PAIN",
+      "text": "Deal 1 damage to each opposing fighter adjacent to Pandora. 1 feather.",
+      "path": "res://assets/heroes/pandora-pain.webp",
+      "feathers": 1
+    },
+    "misfortune": {
+      "name": "MISFORTUNE",
+      "text": "2 feathers",
+      "path": "res://assets/heroes/pandora-misfortune.webp",
+      "feathers": 2
+    },
+    "woe": {
+      "name": "WOE",
+      "text": "Sommon a Kakodaemon in Pandora's zone",
+      "path": "res://assets/heroes/pandora-woe.webp",
+      "feathers": 0
+    },
+    "toil": {
+      "name": "TOIL",
+      "text": "Add +1 to the value of Pandora's attacks this turn. 1 feather",
+      "path": "res://assets/heroes/pandora-toil.webp",
+      "feathers": 1
+    },
+    "greed": {
+      "name": "GREED",
+      "text": "Draw 1 card. 1 feather drawn",
+      "path": "res://assets/heroes/pandora-greed.webp",
+      "feathers": 1
+    },
+    "confusion": {
+      "name": "CONFUSION",
+      "text": "Move Pandora up to 1 space",
+      "path": "res://assets/heroes/pandora-confusion.webp",
+      "feathers": 0
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "checks": 12961,
+  "failures": 0,
+  "heroes": 39,
+  "boards": 20,
+  "sets": 13,
+  "cards": 489,
+  "playable_cards": 1170,
+  "catalog_cards": 1181,
+  "portraits": 68,
+  "special_cards": 6,
+  "source_strings": 1737,
+  "translations_per_language": 1889
+}
